@@ -1,0 +1,36 @@
+/home/user/Desktop/MPEG/tsduck/bin/release-x86_64-LT/objs-libtsduck/tstlvStreamMessage.o \
+ /home/user/Desktop/MPEG/tsduck/bin/release-x86_64-LT/objs-libtsduck/tstlvStreamMessage.dep: \
+ dtv/dvbsimulcrypt/tstlvStreamMessage.cpp \
+ dtv/dvbsimulcrypt/tstlvStreamMessage.h \
+ dtv/dvbsimulcrypt/tstlvChannelMessage.h dtv/dvbsimulcrypt/tstlvMessage.h \
+ dtv/dvbsimulcrypt/tstlvSerializer.h dtv/dvbsimulcrypt/tstlv.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsException.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsUString.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsUChar.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/cpp/tsPlatform.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/cpp/tsBeforeStandardHeaders.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/cpp/tsAfterStandardHeaders.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsArgMix.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsEnumUtils.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsAbstractNumber.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsStringifyInterface.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsArgMixTemplate.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsUStringTemplate.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsByteBlock.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsMemory.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsByteSwap.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/cpp/tsBeforeStandardHeaders.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/cpp/tsAfterStandardHeaders.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsMemoryTemplate.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsSafePtr.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/system/tsFatal.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/system/tsGuardMutex.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/system/tsMutexInterface.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/system/tsMutex.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/system/tsNullMutex.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsSafePtrTemplate.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsVariable.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsVariableTemplate.h \
+ dtv/dvbsimulcrypt/tstlvMessageFactory.h \
+ dtv/dvbsimulcrypt/tstlvProtocol.h \
+ dtv/dvbsimulcrypt/tstlvMessageFactoryTemplate.h

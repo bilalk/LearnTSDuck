@@ -1,0 +1,17 @@
+/home/user/Desktop/MPEG/tsduck/bin/release-x86_64-LT/objs-libtsduck/tsAbstractNetworkAddress.o \
+ /home/user/Desktop/MPEG/tsduck/bin/release-x86_64-LT/objs-libtsduck/tsAbstractNetworkAddress.dep: \
+ base/network/tsAbstractNetworkAddress.cpp \
+ base/network/tsAbstractNetworkAddress.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsStringifyInterface.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/cpp/tsPlatform.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/cpp/tsBeforeStandardHeaders.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/cpp/tsAfterStandardHeaders.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/report/tsReport.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsUString.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsUChar.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsArgMix.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsEnumUtils.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsAbstractNumber.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsArgMixTemplate.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsUStringTemplate.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsEnumeration.h

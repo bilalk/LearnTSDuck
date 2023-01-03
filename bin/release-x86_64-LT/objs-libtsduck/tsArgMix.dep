@@ -1,0 +1,10 @@
+/home/user/Desktop/MPEG/tsduck/bin/release-x86_64-LT/objs-libtsduck/tsArgMix.o \
+ /home/user/Desktop/MPEG/tsduck/bin/release-x86_64-LT/objs-libtsduck/tsArgMix.dep: \
+ base/types/tsArgMix.cpp base/types/tsArgMix.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/cpp/tsPlatform.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/cpp/tsBeforeStandardHeaders.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/cpp/tsAfterStandardHeaders.h \
+ base/types/tsUChar.h base/types/tsEnumUtils.h \
+ base/types/tsAbstractNumber.h base/types/tsStringifyInterface.h \
+ base/types/tsArgMixTemplate.h base/types/tsUString.h \
+ base/types/tsUStringTemplate.h

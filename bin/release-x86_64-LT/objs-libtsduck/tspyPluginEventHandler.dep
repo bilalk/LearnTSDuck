@@ -1,0 +1,35 @@
+/home/user/Desktop/MPEG/tsduck/bin/release-x86_64-LT/objs-libtsduck/tspyPluginEventHandler.o \
+ /home/user/Desktop/MPEG/tsduck/bin/release-x86_64-LT/objs-libtsduck/tspyPluginEventHandler.dep: \
+ python/private/tspyPluginEventHandler.cpp \
+ python/private/tspyPluginEventHandler.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/plugins/infra/tsPluginEventHandlerInterface.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/plugins/infra/tsPluginEventContext.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/app/tsObject.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsSafePtr.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/cpp/tsPlatform.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/cpp/tsBeforeStandardHeaders.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/cpp/tsAfterStandardHeaders.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/system/tsFatal.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/system/tsGuardMutex.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/system/tsMutexInterface.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsException.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsUString.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsUChar.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsArgMix.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsEnumUtils.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsAbstractNumber.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsStringifyInterface.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsArgMixTemplate.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsUStringTemplate.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/system/tsMutex.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/system/tsNullMutex.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsSafePtrTemplate.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/dtv/transport/tsTS.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsBitRate.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsFloatingPoint.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsFloatingPointTemplate.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsIntegerUtils.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsIntegerUtilsTemplate.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsEnumeration.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/plugins/infra/tsPluginEventData.h \
+ python/private/tspy.h

@@ -1,0 +1,20 @@
+/home/user/Desktop/MPEG/tsduck/bin/release-x86_64-LT/objs-libtsduck/tsAbstractVVCAccessUnit.o \
+ /home/user/Desktop/MPEG/tsduck/bin/release-x86_64-LT/objs-libtsduck/tsAbstractVVCAccessUnit.dep: \
+ dtv/codec/tsAbstractVVCAccessUnit.cpp \
+ dtv/codec/tsAbstractVVCAccessUnit.h \
+ dtv/codec/tsAbstractVideoAccessUnit.h dtv/codec/tsAbstractVideoData.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsDisplayInterface.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsUString.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsUChar.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/cpp/tsPlatform.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/cpp/tsBeforeStandardHeaders.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/cpp/tsAfterStandardHeaders.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsArgMix.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsEnumUtils.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsAbstractNumber.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsStringifyInterface.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsArgMixTemplate.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsUStringTemplate.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/report/tsReport.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsEnumeration.h \
+ dtv/codec/tsAVCParser.h dtv/codec/tsAVCParserTemplate.h

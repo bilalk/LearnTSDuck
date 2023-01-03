@@ -1,0 +1,37 @@
+/home/user/Desktop/MPEG/tsduck/bin/release-x86_64-LT/objs-libtsduck/tsAVCAttributes.o \
+ /home/user/Desktop/MPEG/tsduck/bin/release-x86_64-LT/objs-libtsduck/tsAVCAttributes.dep: \
+ dtv/codec/tsAVCAttributes.cpp dtv/codec/tsAVCAttributes.h \
+ dtv/codec/tsAbstractAudioVideoAttributes.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/cpp/tsPlatform.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/cpp/tsBeforeStandardHeaders.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/cpp/tsAfterStandardHeaders.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsStringifyInterface.h \
+ dtv/codec/tsAVCSequenceParameterSet.h \
+ dtv/codec/tsAbstractAVCAccessUnit.h \
+ dtv/codec/tsAbstractVideoAccessUnit.h dtv/codec/tsAbstractVideoData.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsDisplayInterface.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsUString.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsUChar.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsArgMix.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsEnumUtils.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsAbstractNumber.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsArgMixTemplate.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsUStringTemplate.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/report/tsReport.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsEnumeration.h \
+ dtv/codec/tsAVCParser.h dtv/codec/tsAVCParserTemplate.h \
+ dtv/codec/tsAVCVUIParameters.h dtv/codec/tsAbstractVideoStructure.h \
+ dtv/codec/tsAVCHRDParameters.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/app/tsNamesFile.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/app/tsVersionInfo.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/system/tsThread.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/system/tsThreadAttributes.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsException.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/system/tsMutex.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/system/tsMutexInterface.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/tsVersion.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsBitRate.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsFloatingPoint.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsFloatingPointTemplate.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsIntegerUtils.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsIntegerUtilsTemplate.h

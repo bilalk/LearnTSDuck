@@ -1,0 +1,29 @@
+/home/user/Desktop/MPEG/tsduck/bin/release-x86_64-LT/objs-libtsduck/tsBuffer.o \
+ /home/user/Desktop/MPEG/tsduck/bin/release-x86_64-LT/objs-libtsduck/tsBuffer.dep: \
+ base/types/tsBuffer.cpp base/types/tsBuffer.h base/types/tsMemory.h \
+ base/types/tsByteSwap.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/cpp/tsPlatform.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/cpp/tsBeforeStandardHeaders.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/cpp/tsAfterStandardHeaders.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/cpp/tsBeforeStandardHeaders.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/cpp/tsAfterStandardHeaders.h \
+ base/types/tsMemoryTemplate.h base/types/tsByteBlock.h \
+ base/types/tsSafePtr.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/system/tsFatal.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/system/tsGuardMutex.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/system/tsMutexInterface.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsException.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsUString.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsUChar.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsArgMix.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsEnumUtils.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsAbstractNumber.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsStringifyInterface.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsArgMixTemplate.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsUStringTemplate.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/system/tsMutex.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/system/tsNullMutex.h \
+ base/types/tsSafePtrTemplate.h base/types/tsFloatUtils.h \
+ base/types/tsVariable.h base/types/tsVariableTemplate.h \
+ base/types/tsBufferTemplate.h base/types/tsIntegerUtils.h \
+ base/types/tsIntegerUtilsTemplate.h

@@ -1,0 +1,33 @@
+/home/user/Desktop/MPEG/tsduck/bin/release-x86_64-LT/objs-libtsduck/tsjsonObject.o \
+ /home/user/Desktop/MPEG/tsduck/bin/release-x86_64-LT/objs-libtsduck/tsjsonObject.dep: \
+ base/json/tsjsonObject.cpp base/json/tsjsonObject.h \
+ base/json/tsjsonValue.h base/json/tsjson.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsUString.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsUChar.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/cpp/tsPlatform.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/cpp/tsBeforeStandardHeaders.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/cpp/tsAfterStandardHeaders.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsArgMix.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsEnumUtils.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsAbstractNumber.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsStringifyInterface.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsArgMixTemplate.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsUStringTemplate.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsSafePtr.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/system/tsFatal.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/system/tsGuardMutex.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/system/tsMutexInterface.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsException.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/system/tsMutex.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/system/tsNullMutex.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsSafePtrTemplate.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/text/tsTextParser.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/report/tsReport.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsEnumeration.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/report/tsNullReport.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/algo/tsSingletonManager.h \
+ base/json/tsjsonString.h base/json/tsjsonNumber.h base/json/tsjsonNull.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/text/tsTextFormatter.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/algo/tsAbstractOutputStream.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/algo/tsAlgorithm.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/algo/tsAlgorithmTemplate.h

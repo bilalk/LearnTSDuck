@@ -1,0 +1,13 @@
+/home/user/Desktop/MPEG/tsduck/bin/release-x86_64-LT/objs-utest/utestFloatUtils.o \
+ /home/user/Desktop/MPEG/tsduck/bin/release-x86_64-LT/objs-utest/utestFloatUtils.dep: \
+ utestFloatUtils.cpp \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsFloatUtils.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsMemory.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsByteSwap.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/cpp/tsPlatform.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/cpp/tsBeforeStandardHeaders.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/cpp/tsAfterStandardHeaders.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/cpp/tsBeforeStandardHeaders.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/cpp/tsAfterStandardHeaders.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsMemoryTemplate.h \
+ tsunit.h

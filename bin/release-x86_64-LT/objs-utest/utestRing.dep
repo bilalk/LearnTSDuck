@@ -1,0 +1,8 @@
+/home/user/Desktop/MPEG/tsduck/bin/release-x86_64-LT/objs-utest/utestRing.o \
+ /home/user/Desktop/MPEG/tsduck/bin/release-x86_64-LT/objs-utest/utestRing.dep: \
+ utestRing.cpp \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/algo/tsRingNode.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/cpp/tsPlatform.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/cpp/tsBeforeStandardHeaders.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/cpp/tsAfterStandardHeaders.h \
+ tsunit.h

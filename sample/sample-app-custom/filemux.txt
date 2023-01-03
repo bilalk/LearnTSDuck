@@ -1,0 +1,1285 @@
+
+===============================================================================
+|  TRANSPORT STREAM ANALYSIS REPORT                                           |
+|=============================================================================|
+|  Transport Stream Id: .......... 1 (0x0001)  |  Services: .............. 8  |
+|  Bytes: ........................ 97,421,788  |  PID's: Total: ......... 42  |
+|  TS packets: ...................... 518,201  |         Clear: ......... 42  |
+|     With invalid sync: .................. 0  |         Scrambled: ...... 0  |
+|     With transport error: ............... 0  |         With PCR's: ..... 8  |
+|     Suspect and ignored: ................ 0  |         Unreferenced: ... 0  |
+|-----------------------------------------------------------------------------|
+|  Transport stream bitrate, based on ....... 188 bytes/pkt    204 bytes/pkt  |
+|  User-specified: ................................... None             None  |
+|  Estimated based on PCR's: ............... 23,751,525 b/s   25,772,932 b/s  |
+|  Selected reference bitrate: ............. 23,751,525 b/s   25,772,932 b/s  |
+|-----------------------------------------------------------------------------|
+|  Broadcast time: ................................... 32 sec (0 min 32 sec)  |
+|  First TDT UTC time stamp: ........................... 2021/01/27 17:22:11  |
+|  Last TDT UTC time stamp: ............................ 2021/01/27 17:22:11  |
+|  First TOT local time stamp: ......................... 2021/01/27 18:22:11  |
+|  Last TOT local time stamp: .......................... 2021/01/27 18:22:11  |
+|  TOT country code: ................................................... ITA  |
+|-----------------------------------------------------------------------------|
+|  Srv Id  Service Name                              Access          Bitrate  |
+|  0x0D49  Rai 1 ........................................ C    3,598,885 b/s  |
+|  0x0D4A  Rai 2 ........................................ C    8,818,482 b/s  |
+|  0x0D4B  Rai 3 TGR Sardegna ........................... C    4,638,139 b/s  |
+|  0x0D4C  Rai Radio1 ................................... C      379,235 b/s  |
+|  0x0D4D  Rai Radio2 ................................... C      380,152 b/s  |
+|  0x0D4E  Rai Radio3 ................................... C      380,106 b/s  |
+|  0x0D52  Test HEVC main10 ............................. C      384,002 b/s  |
+|  0x0D53  Rai News 24 .................................. C    3,471,236 b/s  |
+|                                                                             |
+|  Note 1: C=Clear, S=Scrambled                                               |
+|  Note 2: Unless specified otherwise, bitrates are based on 188 bytes/pkt    |
+===============================================================================
+
+
+===============================================================================
+|  SERVICES ANALYSIS REPORT                                                   |
+|=============================================================================|
+|  Global PID's                                                               |
+|  TS packets: 58,154, PID's: 8 (clear: 8, scrambled: 0)                      |
+|-----------------------------------------------------------------------------|
+|     PID  Usage                                     Access          Bitrate  |
+|   Total  Global PID's ................................. C    2,665,464 b/s  |
+|   Subt.  Global PSI/SI PID's (0x00-0x1F) .............. C       94,144 b/s  |
+|  0x0000  PAT .......................................... C       14,805 b/s  |
+|  0x0001  CAT .......................................... C       14,850 b/s  |
+|  0x0010  NIT .......................................... C          183 b/s  |
+|  0x0011  SDT/BAT ...................................... C        5,913 b/s  |
+|  0x0012  EIT .......................................... C       55,689 b/s  |
+|  0x0014  TDT/TOT ...................................... C           46 b/s  |
+|  0x0015  Network Synchronization ...................... C        2,658 b/s  |
+|  0x1FFF  Stuffing ..................................... C    2,571,320 b/s  |
+|=============================================================================|
+|  Service: 0x0D49 (3401), TS: 0x0001 (1), Original Netw: 0x013E (318)        |
+|  Service name: Rai 1, provider: RAI                                         |
+|  Service type: 0x01 (Digital television service)                            |
+|  TS packets: 78,519, PID's: 11 (clear: 11, scrambled: 0)                    |
+|  PMT PID: 0x0102 (258), PCR PID: 0x0200 (512)                               |
+|-----------------------------------------------------------------------------|
+|     PID  Usage                                     Access          Bitrate  |
+|   Total  Digital television service ................... C    3,598,885 b/s  |
+|  0x0102  PMT .......................................... C       15,721 b/s  |
+|  0x0200  MPEG-2 Video (720x576i, @25 Hz, 16:9, 4:2:0) . C    2,727,249 b/s  |
+|  0x0240  Teletext (ita, eng, Initial Teletext page, Te  C      300,812 b/s  |
+|  0x028A  MPEG-2 Audio (ita, Audio layer II, 192 kb/s,   C      196,722 b/s  |
+|  0x02B6  MPEG-2 Audio (Audio layer II, 64 kb/s, @48,00  C       66,139 b/s  |
+|  0x02BB  MPEG-2 Audio (eng) ........................... C      131,545 b/s  |
+|  0x07D1  MPEG-2 Private sections (AIT) ................ C+       4,538 b/s  |
+|  0x07D2  MPEG-2 Private sections (AIT) ................ C+       4,538 b/s  |
+|  0x0BB9  DSM-CC U-N (MHP Object Carousel) ............. C+     100,103 b/s  |
+|  0x0BBA  DSM-CC U-N (HbbTV) ........................... C+      50,006 b/s  |
+|  0x0C1D  DSM-CC Stream Descriptors .................... C+       1,513 b/s  |
+|          (C=Clear, S=Scrambled, +=Shared)                                   |
+|=============================================================================|
+|  Service: 0x0D4A (3402), TS: 0x0001 (1), Original Netw: 0x013E (318)        |
+|  Service name: Rai 2, provider: RAI                                         |
+|  Service type: 0x01 (Digital television service)                            |
+|  TS packets: 192,398, PID's: 11 (clear: 11, scrambled: 0)                   |
+|  PMT PID: 0x0101 (257), PCR PID: 0x0201 (513)                               |
+|-----------------------------------------------------------------------------|
+|     PID  Usage                                     Access          Bitrate  |
+|   Total  Digital television service ................... C    8,818,482 b/s  |
+|  0x0101  PMT .......................................... C       15,721 b/s  |
+|  0x0201  MPEG-2 Video (720x576i, @25 Hz, 16:9, 4:2:0) . C    7,881,714 b/s  |
+|  0x0241  Teletext (ita, eng, Initial Teletext page, Te  C      300,767 b/s  |
+|  0x028B  MPEG-2 Audio (ita, Audio layer II, 192 kb/s,   C      196,722 b/s  |
+|  0x02B7  MPEG-2 Audio (Audio layer II, 64 kb/s, @48,00  C       66,139 b/s  |
+|  0x02B8  MPEG-2 Audio (eng, Audio layer II, 192 kb/s,   C      196,722 b/s  |
+|  0x07D1  MPEG-2 Private sections (AIT) ................ C+       4,538 b/s  |
+|  0x07D2  MPEG-2 Private sections (AIT) ................ C+       4,538 b/s  |
+|  0x0BB9  DSM-CC U-N (MHP Object Carousel) ............. C+     100,103 b/s  |
+|  0x0BBA  DSM-CC U-N (HbbTV) ........................... C+      50,006 b/s  |
+|  0x0C1D  DSM-CC Stream Descriptors .................... C+       1,513 b/s  |
+|          (C=Clear, S=Scrambled, +=Shared)                                   |
+|=============================================================================|
+|  Service: 0x0D4B (3403), TS: 0x0001 (1), Original Netw: 0x013E (318)        |
+|  Service name: Rai 3 TGR Sardegna, provider: RAI                            |
+|  Service type: 0x01 (Digital television service)                            |
+|  TS packets: 101,193, PID's: 10 (clear: 10, scrambled: 0)                   |
+|  PMT PID: 0x0100 (256), PCR PID: 0x0202 (514)                               |
+|-----------------------------------------------------------------------------|
+|     PID  Usage                                     Access          Bitrate  |
+|   Total  Digital television service ................... C    4,638,139 b/s  |
+|  0x0100  PMT .......................................... C       15,721 b/s  |
+|  0x0202  MPEG-2 Video (720x576i, @25 Hz, 16:9, 4:2:0) . C    3,898,094 b/s  |
+|  0x0242  Teletext (ita, Initial Teletext page) ........ C      300,812 b/s  |
+|  0x028C  MPEG-2 Audio (ita, Audio layer II, 192 kb/s,   C      196,722 b/s  |
+|  0x02B9  MPEG-2 Audio (Oth, Audio layer II, 64 kb/s, @  C       66,093 b/s  |
+|  0x07D1  MPEG-2 Private sections (AIT) ................ C+       4,538 b/s  |
+|  0x07D2  MPEG-2 Private sections (AIT) ................ C+       4,538 b/s  |
+|  0x0BB9  DSM-CC U-N (MHP Object Carousel) ............. C+     100,103 b/s  |
+|  0x0BBA  DSM-CC U-N (HbbTV) ........................... C+      50,006 b/s  |
+|  0x0C1D  DSM-CC Stream Descriptors .................... C+       1,513 b/s  |
+|          (C=Clear, S=Scrambled, +=Shared)                                   |
+|=============================================================================|
+|  Service: 0x0D4C (3404), TS: 0x0001 (1), Original Netw: 0x013E (318)        |
+|  Service name: Rai Radio1, provider: RAI                                    |
+|  Service type: 0x02 (Digital radio sound service)                           |
+|  TS packets: 8,274, PID's: 7 (clear: 7, scrambled: 0)                       |
+|  PMT PID: 0x0103 (259), PCR PID: 0x028D (653)                               |
+|-----------------------------------------------------------------------------|
+|     PID  Usage                                     Access          Bitrate  |
+|   Total  Digital radio sound service .................. C      379,235 b/s  |
+|  0x0103  PMT .......................................... C       15,721 b/s  |
+|  0x028D  MPEG-2 Audio (ita, Audio layer II, 192 kb/s,   C      202,818 b/s  |
+|  0x07D1  MPEG-2 Private sections (AIT) ................ C+       4,538 b/s  |
+|  0x07D2  MPEG-2 Private sections (AIT) ................ C+       4,538 b/s  |
+|  0x0BB9  DSM-CC U-N (MHP Object Carousel) ............. C+     100,103 b/s  |
+|  0x0BBA  DSM-CC U-N (HbbTV) ........................... C+      50,006 b/s  |
+|  0x0C1D  DSM-CC Stream Descriptors .................... C+       1,513 b/s  |
+|          (C=Clear, S=Scrambled, +=Shared)                                   |
+|=============================================================================|
+|  Service: 0x0D4D (3405), TS: 0x0001 (1), Original Netw: 0x013E (318)        |
+|  Service name: Rai Radio2, provider: RAI                                    |
+|  Service type: 0x02 (Digital radio sound service)                           |
+|  TS packets: 8,294, PID's: 7 (clear: 7, scrambled: 0)                       |
+|  PMT PID: 0x0104 (260), PCR PID: 0x028E (654)                               |
+|-----------------------------------------------------------------------------|
+|     PID  Usage                                     Access          Bitrate  |
+|   Total  Digital radio sound service .................. C      380,152 b/s  |
+|  0x0104  PMT .......................................... C       15,767 b/s  |
+|  0x028E  MPEG-2 Audio (Audio layer II, 192 kb/s, @48,0  C      203,689 b/s  |
+|  0x07D1  MPEG-2 Private sections (AIT) ................ C+       4,538 b/s  |
+|  0x07D2  MPEG-2 Private sections (AIT) ................ C+       4,538 b/s  |
+|  0x0BB9  DSM-CC U-N (MHP Object Carousel) ............. C+     100,103 b/s  |
+|  0x0BBA  DSM-CC U-N (HbbTV) ........................... C+      50,006 b/s  |
+|  0x0C1D  DSM-CC Stream Descriptors .................... C+       1,513 b/s  |
+|          (C=Clear, S=Scrambled, +=Shared)                                   |
+|=============================================================================|
+|  Service: 0x0D4E (3406), TS: 0x0001 (1), Original Netw: 0x013E (318)        |
+|  Service name: Rai Radio3, provider: RAI                                    |
+|  Service type: 0x02 (Digital radio sound service)                           |
+|  TS packets: 8,293, PID's: 7 (clear: 7, scrambled: 0)                       |
+|  PMT PID: 0x0105 (261), PCR PID: 0x028F (655)                               |
+|-----------------------------------------------------------------------------|
+|     PID  Usage                                     Access          Bitrate  |
+|   Total  Digital radio sound service .................. C      380,106 b/s  |
+|  0x0105  PMT .......................................... C       15,721 b/s  |
+|  0x028F  MPEG-2 Audio (Audio layer II, 192 kb/s, @48,0  C      203,689 b/s  |
+|  0x07D1  MPEG-2 Private sections (AIT) ................ C+       4,538 b/s  |
+|  0x07D2  MPEG-2 Private sections (AIT) ................ C+       4,538 b/s  |
+|  0x0BB9  DSM-CC U-N (MHP Object Carousel) ............. C+     100,103 b/s  |
+|  0x0BBA  DSM-CC U-N (HbbTV) ........................... C+      50,006 b/s  |
+|  0x0C1D  DSM-CC Stream Descriptors .................... C+       1,513 b/s  |
+|          (C=Clear, S=Scrambled, +=Shared)                                   |
+|=============================================================================|
+|  Service: 0x0D52 (3410), TS: 0x0001 (1), Original Netw: 0x013E (318)        |
+|  Service name: Test HEVC main10, provider: Rai                              |
+|  Service type: 0x1F (HEVC digital television service)                       |
+|  TS packets: 8,378, PID's: 2 (clear: 2, scrambled: 0)                       |
+|  PMT PID: 0x012C (300), PCR PID: 0x01F4 (500)                               |
+|-----------------------------------------------------------------------------|
+|     PID  Usage                                     Access          Bitrate  |
+|   Total  HEVC digital television service .............. C      384,002 b/s  |
+|  0x012C  PMT .......................................... C       15,767 b/s  |
+|  0x01F4  HEVC video (1280x720, main 10 profile, level   C      368,235 b/s  |
+|          (C=Clear, S=Scrambled, +=Shared)                                   |
+|=============================================================================|
+|  Service: 0x0D53 (3411), TS: 0x0001 (1), Original Netw: 0x013E (318)        |
+|  Service name: Rai News 24, provider: RAI                                   |
+|  Service type: 0x01 (Digital television service)                            |
+|  TS packets: 75,734, PID's: 9 (clear: 9, scrambled: 0)                      |
+|  PMT PID: 0x0118 (280), PCR PID: 0x0208 (520)                               |
+|-----------------------------------------------------------------------------|
+|     PID  Usage                                     Access          Bitrate  |
+|   Total  Digital television service ................... C    3,471,236 b/s  |
+|  0x0118  PMT .......................................... C       15,721 b/s  |
+|  0x0208  MPEG-2 Video (720x576i, @25 Hz, 16:9, 4:2:0) . C    2,985,298 b/s  |
+|  0x0257  Teletext (ita, eng, Initial Teletext page, Te  C      112,799 b/s  |
+|  0x02B2  MPEG-2 Audio (ita, Audio layer II, 192 kb/s,   C      196,722 b/s  |
+|  0x07D1  MPEG-2 Private sections (AIT) ................ C+       4,538 b/s  |
+|  0x07D2  MPEG-2 Private sections (AIT) ................ C+       4,538 b/s  |
+|  0x0BB9  DSM-CC U-N (MHP Object Carousel) ............. C+     100,103 b/s  |
+|  0x0BBA  DSM-CC U-N (HbbTV) ........................... C+      50,006 b/s  |
+|  0x0C1D  DSM-CC Stream Descriptors .................... C+       1,513 b/s  |
+|          (C=Clear, S=Scrambled, +=Shared)                                   |
+===============================================================================
+
+
+===============================================================================
+|  PIDS ANALYSIS REPORT                                                       |
+|=============================================================================|
+|  PID: 0x0000 (0)                                                       PAT  |
+|-----------------------------------------------------------------------------|
+|  Global PID                Transport:                Discontinuities:       |
+|  Bitrate: .... 14,805 b/s  Packets: ........... 323  Expected: ......... 0  |
+|  Access: .......... Clear  Adapt.F.: ............ 0  Unexpect: ......... 0  |
+|                            Duplicated: .......... 0  Sections:              |
+|                                                      Unit start: ..... 323  |
+|=============================================================================|
+|  PID: 0x0001 (1)                                                       CAT  |
+|-----------------------------------------------------------------------------|
+|  Global PID                Transport:                Discontinuities:       |
+|  Bitrate: .... 14,850 b/s  Packets: ........... 324  Expected: ......... 0  |
+|  Access: .......... Clear  Adapt.F.: ............ 0  Unexpect: ......... 0  |
+|                            Duplicated: .......... 0  Sections:              |
+|                                                      Unit start: ..... 324  |
+|=============================================================================|
+|  PID: 0x0010 (16)                                                      NIT  |
+|-----------------------------------------------------------------------------|
+|  Global PID                Transport:                Discontinuities:       |
+|  Bitrate: ....... 183 b/s  Packets: ............. 4  Expected: ......... 0  |
+|  Access: .......... Clear  Adapt.F.: ............ 0  Unexpect: ......... 0  |
+|                            Duplicated: .......... 0  Sections:              |
+|                                                      Unit start: ....... 4  |
+|=============================================================================|
+|  PID: 0x0011 (17)                                                  SDT/BAT  |
+|-----------------------------------------------------------------------------|
+|  Global PID                Transport:                Discontinuities:       |
+|  Bitrate: ..... 5,913 b/s  Packets: ........... 129  Expected: ......... 0  |
+|  Access: .......... Clear  Adapt.F.: ............ 0  Unexpect: ......... 0  |
+|                            Duplicated: .......... 0  Sections:              |
+|                                                      Unit start: ...... 79  |
+|=============================================================================|
+|  PID: 0x0012 (18)                                                      EIT  |
+|-----------------------------------------------------------------------------|
+|  Global PID                Transport:                Discontinuities:       |
+|  Bitrate: .... 55,689 b/s  Packets: ......... 1,215  Expected: ......... 0  |
+|  Access: .......... Clear  Adapt.F.: ............ 0  Unexpect: ......... 0  |
+|                            Duplicated: .......... 0  Sections:              |
+|                                                      Unit start: ..... 215  |
+|=============================================================================|
+|  PID: 0x0014 (20)                                                  TDT/TOT  |
+|-----------------------------------------------------------------------------|
+|  Global PID                Transport:                Discontinuities:       |
+|  Bitrate: ........ 46 b/s  Packets: ............. 1  Expected: ......... 0  |
+|  Access: .......... Clear  Adapt.F.: ............ 0  Unexpect: ......... 0  |
+|                            Duplicated: .......... 0  Sections:              |
+|                                                      Unit start: ....... 1  |
+|=============================================================================|
+|  PID: 0x0015 (21)                                  Network Synchronization  |
+|-----------------------------------------------------------------------------|
+|  Global PID                Transport:                Discontinuities:       |
+|  Bitrate: ..... 2,658 b/s  Packets: ............ 58  Expected: ......... 0  |
+|  Access: .......... Clear  Adapt.F.: ............ 0  Unexpect: ......... 0  |
+|                            Duplicated: .......... 0  Sections:              |
+|                                                      Unit start: ...... 58  |
+|=============================================================================|
+|  PID: 0x0100 (256)                                                     PMT  |
+|  Service: 0x0D4B (3403) Rai 3 TGR Sardegna                                  |
+|-----------------------------------------------------------------------------|
+|  Single Service PID        Transport:                Discontinuities:       |
+|  Bitrate: .... 15,721 b/s  Packets: ........... 343  Expected: ......... 0  |
+|  Access: .......... Clear  Adapt.F.: ............ 0  Unexpect: ......... 0  |
+|                            Duplicated: .......... 0  Sections:              |
+|                                                      Unit start: ..... 343  |
+|=============================================================================|
+|  PID: 0x0101 (257)                                                     PMT  |
+|  Service: 0x0D4A (3402) Rai 2                                               |
+|-----------------------------------------------------------------------------|
+|  Single Service PID        Transport:                Discontinuities:       |
+|  Bitrate: .... 15,721 b/s  Packets: ........... 343  Expected: ......... 0  |
+|  Access: .......... Clear  Adapt.F.: ............ 0  Unexpect: ......... 0  |
+|                            Duplicated: .......... 0  Sections:              |
+|                                                      Unit start: ..... 343  |
+|=============================================================================|
+|  PID: 0x0102 (258)                                                     PMT  |
+|  Service: 0x0D49 (3401) Rai 1                                               |
+|-----------------------------------------------------------------------------|
+|  Single Service PID        Transport:                Discontinuities:       |
+|  Bitrate: .... 15,721 b/s  Packets: ........... 343  Expected: ......... 0  |
+|  Access: .......... Clear  Adapt.F.: ............ 0  Unexpect: ......... 0  |
+|                            Duplicated: .......... 0  Sections:              |
+|                                                      Unit start: ..... 343  |
+|=============================================================================|
+|  PID: 0x0103 (259)                                                     PMT  |
+|  Service: 0x0D4C (3404) Rai Radio1                                          |
+|-----------------------------------------------------------------------------|
+|  Single Service PID        Transport:                Discontinuities:       |
+|  Bitrate: .... 15,721 b/s  Packets: ........... 343  Expected: ......... 0  |
+|  Access: .......... Clear  Adapt.F.: ............ 0  Unexpect: ......... 0  |
+|                            Duplicated: .......... 0  Sections:              |
+|                                                      Unit start: ..... 343  |
+|=============================================================================|
+|  PID: 0x0104 (260)                                                     PMT  |
+|  Service: 0x0D4D (3405) Rai Radio2                                          |
+|-----------------------------------------------------------------------------|
+|  Single Service PID        Transport:                Discontinuities:       |
+|  Bitrate: .... 15,767 b/s  Packets: ........... 344  Expected: ......... 0  |
+|  Access: .......... Clear  Adapt.F.: ............ 0  Unexpect: ......... 0  |
+|                            Duplicated: .......... 0  Sections:              |
+|                                                      Unit start: ..... 344  |
+|=============================================================================|
+|  PID: 0x0105 (261)                                                     PMT  |
+|  Service: 0x0D4E (3406) Rai Radio3                                          |
+|-----------------------------------------------------------------------------|
+|  Single Service PID        Transport:                Discontinuities:       |
+|  Bitrate: .... 15,721 b/s  Packets: ........... 343  Expected: ......... 0  |
+|  Access: .......... Clear  Adapt.F.: ............ 0  Unexpect: ......... 0  |
+|                            Duplicated: .......... 0  Sections:              |
+|                                                      Unit start: ..... 343  |
+|=============================================================================|
+|  PID: 0x0118 (280)                                                     PMT  |
+|  Service: 0x0D53 (3411) Rai News 24                                         |
+|-----------------------------------------------------------------------------|
+|  Single Service PID        Transport:                Discontinuities:       |
+|  Bitrate: .... 15,721 b/s  Packets: ........... 343  Expected: ......... 0  |
+|  Access: .......... Clear  Adapt.F.: ............ 0  Unexpect: ......... 0  |
+|                            Duplicated: .......... 0  Sections:              |
+|                                                      Unit start: ..... 343  |
+|=============================================================================|
+|  PID: 0x012C (300)                                                     PMT  |
+|  Service: 0x0D52 (3410) Test HEVC main10                                    |
+|-----------------------------------------------------------------------------|
+|  Single Service PID        Transport:                Discontinuities:       |
+|  Bitrate: .... 15,767 b/s  Packets: ........... 344  Expected: ......... 0  |
+|  Access: .......... Clear  Adapt.F.: ............ 0  Unexpect: ......... 0  |
+|                            Duplicated: .......... 0  Sections:              |
+|                                                      Unit start: ..... 344  |
+|=============================================================================|
+|  PID: 0x01F4 (500)                                              HEVC video  |
+|  PES stream id: 0xE0 (Video 0)                                              |
+|  1280x720, main 10 profile, level 5.1, 4:2:0                                |
+|  Service: 0x0D52 (3410) Test HEVC main10                                    |
+|-----------------------------------------------------------------------------|
+|  Single Service PID        Transport:                Discontinuities:       |
+|  Bitrate: ... 368,235 b/s  Packets: ......... 8,034  Expected: ......... 0  |
+|  Access: .......... Clear  Adapt.F.: ........ 2,774  Unexpect: ......... 0  |
+|                            Duplicated: .......... 0  PES:                   |
+|                            TSrate: . 23,752,118 b/s  Packets: ...... 1,641  |
+|                                                      Inv.Start: ........ 0  |
+|  Clock values range:                                                        |
+|  PCR: ............. 1,438  PTS: ............. 1,641  DTS: .......... 1,436  |
+|  from . 1,151,015,712,301  from ..... 3,836,811,176  from .. 3,836,809,376  |
+|  to ... 1,151,901,219,379  to ....... 3,839,763,176  to .... 3,839,761,376  |
+|  Leaps: ............... 0  Leaps: ............... 0  Leaps: ............ 0  |
+|=============================================================================|
+|  PID: 0x0200 (512)                                            MPEG-2 Video  |
+|  PES stream id: 0xEA (Video 10)                                             |
+|  720x576i, @25 Hz, 16:9, 4:2:0                                              |
+|  Service: 0x0D49 (3401) Rai 1                                               |
+|-----------------------------------------------------------------------------|
+|  Single Service PID        Transport:                Discontinuities:       |
+|  Bitrate: . 2,727,249 b/s  Packets: ........ 59,502  Expected: ......... 0  |
+|  Access: .......... Clear  Adapt.F.: ........ 1,262  Unexpect: ......... 0  |
+|                            Duplicated: .......... 0  PES:                   |
+|                            TSrate: . 23,751,284 b/s  Packets: ........ 819  |
+|                                                      Inv.Start: ........ 0  |
+|  Clock values range:                                                        |
+|  PCR: ............. 1,262  PTS: ............... 819  DTS: ............ 273  |
+|  from . 1,328,754,577,129  from ..... 4,429,242,402  from .. 4,429,246,002  |
+|  to ... 1,329,640,465,162  to ....... 4,432,187,202  to .... 4,432,183,602  |
+|  Leaps: ............... 0  Leaps: ............... 0  Leaps: ............ 0  |
+|=============================================================================|
+|  PID: 0x0201 (513)                                            MPEG-2 Video  |
+|  PES stream id: 0xEA (Video 10)                                             |
+|  720x576i, @25 Hz, 16:9, 4:2:0                                              |
+|  Service: 0x0D4A (3402) Rai 2                                               |
+|-----------------------------------------------------------------------------|
+|  Single Service PID        Transport:                Discontinuities:       |
+|  Bitrate: . 7,881,714 b/s  Packets: ....... 171,960  Expected: ......... 0  |
+|  Access: .......... Clear  Adapt.F.: ........ 1,137  Unexpect: ......... 0  |
+|                            Duplicated: .......... 0  PES:                   |
+|                            TSrate: . 23,751,326 b/s  Packets: ........ 821  |
+|                                                      Inv.Start: ........ 0  |
+|  Clock values range:                                                        |
+|  PCR: ............. 1,137  PTS: ............... 821  DTS: ............ 273  |
+|  from ... 205,141,503,291  from ....... 683,822,788  from .... 683,829,988  |
+|  to ..... 206,025,541,400  to ......... 686,774,788  to ...... 686,767,588  |
+|  Leaps: ............... 0  Leaps: ............... 0  Leaps: ............ 0  |
+|=============================================================================|
+|  PID: 0x0202 (514)                                            MPEG-2 Video  |
+|  PES stream id: 0xEA (Video 10)                                             |
+|  720x576i, @25 Hz, 16:9, 4:2:0                                              |
+|  Service: 0x0D4B (3403) Rai 3 TGR Sardegna                                  |
+|-----------------------------------------------------------------------------|
+|  Single Service PID        Transport:                Discontinuities:       |
+|  Bitrate: . 3,898,094 b/s  Packets: ........ 85,047  Expected: ......... 0  |
+|  Access: .......... Clear  Adapt.F.: ........ 1,169  Unexpect: ......... 0  |
+|                            Duplicated: .......... 0  PES:                   |
+|                            TSrate: . 23,751,505 b/s  Packets: ......... 68  |
+|                                                      Inv.Start: ........ 0  |
+|  Clock values range:                                                        |
+|  PCR: ............. 1,169  PTS: ................ 68  DTS: ............. 68  |
+|  from ... 241,663,078,652  from ....... 805,618,184  from .... 805,607,384  |
+|  to ..... 242,547,993,001  to ......... 808,512,584  to ...... 808,501,784  |
+|  Leaps: ............... 0  Leaps: ............... 0  Leaps: ............ 0  |
+|=============================================================================|
+|  PID: 0x0208 (520)                                            MPEG-2 Video  |
+|  PES stream id: 0xEA (Video 10)                                             |
+|  720x576i, @25 Hz, 16:9, 4:2:0                                              |
+|  Service: 0x0D53 (3411) Rai News 24                                         |
+|-----------------------------------------------------------------------------|
+|  Single Service PID        Transport:                Discontinuities:       |
+|  Bitrate: . 2,985,298 b/s  Packets: ........ 65,132  Expected: ......... 0  |
+|  Access: .......... Clear  Adapt.F.: ........ 1,307  Unexpect: ......... 0  |
+|                            Duplicated: .......... 0  PES:                   |
+|                            TSrate: . 23,751,257 b/s  Packets: ........ 818  |
+|                                                      Inv.Start: ........ 0  |
+|  Clock values range:                                                        |
+|  PCR: ............. 1,307  PTS: ............... 818  DTS: ............ 272  |
+|  from ... 841,857,507,403  from ..... 2,806,234,544  from .. 2,806,241,744  |
+|  to ..... 842,743,128,716  to ....... 2,809,175,744  to .... 2,809,168,544  |
+|  Leaps: ............... 0  Leaps: ............... 0  Leaps: ............ 0  |
+|=============================================================================|
+|  PID: 0x0240 (576)                                     Teletext (ita, eng)  |
+|  PES stream id: 0xBD (Private stream 1)                                     |
+|  Initial Teletext page                                                      |
+|  Teletext subtitles                                                         |
+|  Service: 0x0D49 (3401) Rai 1                                               |
+|-----------------------------------------------------------------------------|
+|  Single Service PID        Transport:                Discontinuities:       |
+|  Bitrate: ... 300,812 b/s  Packets: ......... 6,563  Expected: ......... 0  |
+|  Access: .......... Clear  Adapt.F.: ............ 0  Unexpect: ......... 0  |
+|                            Duplicated: .......... 0  PES:                   |
+|                                                      Packets: ...... 1,641  |
+|                                                      Inv.Start: ........ 0  |
+|  Clock values range:                                                        |
+|                            PTS: ............. 1,641                         |
+|                            from ..... 5,665,706,240                         |
+|                            to ....... 5,668,658,240                         |
+|                            Leaps: ............... 0                         |
+|=============================================================================|
+|  PID: 0x0241 (577)                                     Teletext (ita, eng)  |
+|  PES stream id: 0xBD (Private stream 1)                                     |
+|  Initial Teletext page                                                      |
+|  Teletext subtitles                                                         |
+|  Service: 0x0D4A (3402) Rai 2                                               |
+|-----------------------------------------------------------------------------|
+|  Single Service PID        Transport:                Discontinuities:       |
+|  Bitrate: ... 300,767 b/s  Packets: ......... 6,562  Expected: ......... 0  |
+|  Access: .......... Clear  Adapt.F.: ............ 0  Unexpect: ......... 0  |
+|                            Duplicated: .......... 0  PES:                   |
+|                                                      Packets: ...... 1,640  |
+|                                                      Inv.Start: ........ 0  |
+|  Clock values range:                                                        |
+|                            PTS: ............. 1,640                         |
+|                            from ..... 5,665,706,240                         |
+|                            to ....... 5,668,656,440                         |
+|                            Leaps: ............... 0                         |
+|=============================================================================|
+|  PID: 0x0242 (578)                                          Teletext (ita)  |
+|  PES stream id: 0xBD (Private stream 1)                                     |
+|  Initial Teletext page                                                      |
+|  Service: 0x0D4B (3403) Rai 3 TGR Sardegna                                  |
+|-----------------------------------------------------------------------------|
+|  Single Service PID        Transport:                Discontinuities:       |
+|  Bitrate: ... 300,812 b/s  Packets: ......... 6,563  Expected: ......... 0  |
+|  Access: .......... Clear  Adapt.F.: ............ 0  Unexpect: ......... 0  |
+|                            Duplicated: .......... 0  PES:                   |
+|                                                      Packets: ...... 1,641  |
+|                                                      Inv.Start: ........ 0  |
+|  Clock values range:                                                        |
+|                            PTS: ............. 1,641                         |
+|                            from ..... 5,667,293,840                         |
+|                            to ....... 5,670,245,840                         |
+|                            Leaps: ............... 0                         |
+|=============================================================================|
+|  PID: 0x0257 (599)                                     Teletext (ita, eng)  |
+|  PES stream id: 0xBD (Private stream 1)                                     |
+|  Initial Teletext page                                                      |
+|  Teletext subtitles                                                         |
+|  Service: 0x0D53 (3411) Rai News 24                                         |
+|-----------------------------------------------------------------------------|
+|  Single Service PID        Transport:                Discontinuities:       |
+|  Bitrate: ... 112,799 b/s  Packets: ......... 2,461  Expected: ......... 0  |
+|  Access: .......... Clear  Adapt.F.: ............ 0  Unexpect: ......... 0  |
+|                            Duplicated: .......... 0  PES:                   |
+|                                                      Packets: ...... 1,641  |
+|                                                      Inv.Start: ........ 0  |
+|  Clock values range:                                                        |
+|                            PTS: ............. 1,641                         |
+|                            from ..... 5,665,682,840                         |
+|                            to ....... 5,668,634,840                         |
+|                            Leaps: ............... 0                         |
+|=============================================================================|
+|  PID: 0x028A (650)                                      MPEG-2 Audio (ita)  |
+|  PES stream id: 0xC0 (Audio 0)                                              |
+|  Audio layer II, 192 kb/s, @48,000 Hz, stereo                               |
+|  Service: 0x0D49 (3401) Rai 1                                               |
+|-----------------------------------------------------------------------------|
+|  Single Service PID        Transport:                Discontinuities:       |
+|  Bitrate: ... 196,722 b/s  Packets: ......... 4,292  Expected: ......... 0  |
+|  Access: .......... Clear  Adapt.F.: ............ 0  Unexpect: ......... 0  |
+|                            Duplicated: .......... 0  PES:                   |
+|                                                      Packets: ........ 134  |
+|                                                      Inv.Start: ........ 0  |
+|  Clock values range:                                                        |
+|                            PTS: ............... 134                         |
+|                            from ..... 4,429,201,399                         |
+|                            to ....... 4,432,130,359                         |
+|                            Leaps: ............... 0                         |
+|=============================================================================|
+|  PID: 0x028B (651)                                      MPEG-2 Audio (ita)  |
+|  PES stream id: 0xC0 (Audio 0)                                              |
+|  Audio layer II, 192 kb/s, @48,000 Hz, stereo                               |
+|  Service: 0x0D4A (3402) Rai 2                                               |
+|-----------------------------------------------------------------------------|
+|  Single Service PID        Transport:                Discontinuities:       |
+|  Bitrate: ... 196,722 b/s  Packets: ......... 4,292  Expected: ......... 0  |
+|  Access: .......... Clear  Adapt.F.: ............ 0  Unexpect: ......... 0  |
+|                            Duplicated: .......... 0  PES:                   |
+|                                                      Packets: ........ 134  |
+|                                                      Inv.Start: ........ 0  |
+|  Clock values range:                                                        |
+|                            PTS: ............... 134                         |
+|                            from ....... 683,815,627                         |
+|                            to ......... 686,744,587                         |
+|                            Leaps: ............... 0                         |
+|=============================================================================|
+|  PID: 0x028C (652)                                      MPEG-2 Audio (ita)  |
+|  PES stream id: 0xC0 (Audio 0)                                              |
+|  Audio layer II, 192 kb/s, @48,000 Hz, stereo                               |
+|  Service: 0x0D4B (3403) Rai 3 TGR Sardegna                                  |
+|-----------------------------------------------------------------------------|
+|  Single Service PID        Transport:                Discontinuities:       |
+|  Bitrate: ... 196,722 b/s  Packets: ......... 4,292  Expected: ......... 0  |
+|  Access: .......... Clear  Adapt.F.: ............ 0  Unexpect: ......... 0  |
+|                            Duplicated: .......... 0  PES:                   |
+|                                                      Packets: ........ 134  |
+|                                                      Inv.Start: ........ 0  |
+|  Clock values range:                                                        |
+|                            PTS: ............... 134                         |
+|                            from ....... 805,557,475                         |
+|                            to ......... 808,486,435                         |
+|                            Leaps: ............... 0                         |
+|=============================================================================|
+|  PID: 0x028D (653)                                      MPEG-2 Audio (ita)  |
+|  PES stream id: 0xC0 (Audio 0)                                              |
+|  Audio layer II, 192 kb/s, @48,000 Hz, stereo                               |
+|  Service: 0x0D4C (3404) Rai Radio1                                          |
+|-----------------------------------------------------------------------------|
+|  Single Service PID        Transport:                Discontinuities:       |
+|  Bitrate: ... 202,818 b/s  Packets: ......... 4,425  Expected: ......... 0  |
+|  Access: .......... Clear  Adapt.F.: ........ 1,106  Unexpect: ......... 0  |
+|                            Duplicated: .......... 0  PES:                   |
+|                            TSrate: . 23,751,462 b/s  Packets: ...... 1,106  |
+|                                                      Inv.Start: ........ 0  |
+|  Clock values range:                                                        |
+|  PCR: ............. 1,106  PTS: ............. 1,106                         |
+|  from ... 241,663,010,263  from ....... 805,547,895                         |
+|  to ..... 242,547,924,610  to ......... 808,498,455                         |
+|  Leaps: ............... 0  Leaps: ............... 0                         |
+|=============================================================================|
+|  PID: 0x028E (654)                                            MPEG-2 Audio  |
+|  PES stream id: 0xC0 (Audio 0)                                              |
+|  Audio layer II, 192 kb/s, @48,000 Hz, stereo                               |
+|  Service: 0x0D4D (3405) Rai Radio2                                          |
+|-----------------------------------------------------------------------------|
+|  Single Service PID        Transport:                Discontinuities:       |
+|  Bitrate: ... 203,689 b/s  Packets: ......... 4,444  Expected: ......... 0  |
+|  Access: .......... Clear  Adapt.F.: ........ 1,367  Unexpect: ......... 0  |
+|                            Duplicated: .......... 0  PES:                   |
+|                            TSrate: . 23,751,553 b/s  Packets: ........ 342  |
+|                                                      Inv.Start: ........ 0  |
+|  Clock values range:                                                        |
+|  PCR: ............. 1,367  PTS: ............... 342                         |
+|  from . 1,485,253,638,335  from ..... 4,950,854,399                         |
+|  to ... 1,486,138,531,068  to ....... 4,953,800,639                         |
+|  Leaps: ............... 0  Leaps: ............... 0                         |
+|=============================================================================|
+|  PID: 0x028F (655)                                            MPEG-2 Audio  |
+|  PES stream id: 0xC0 (Audio 0)                                              |
+|  Audio layer II, 192 kb/s, @48,000 Hz, stereo                               |
+|  Service: 0x0D4E (3406) Rai Radio3                                          |
+|-----------------------------------------------------------------------------|
+|  Single Service PID        Transport:                Discontinuities:       |
+|  Bitrate: ... 203,689 b/s  Packets: ......... 4,444  Expected: ......... 0  |
+|  Access: .......... Clear  Adapt.F.: ........ 1,367  Unexpect: ......... 0  |
+|                            Duplicated: .......... 0  PES:                   |
+|                            TSrate: . 23,751,585 b/s  Packets: ........ 342  |
+|                                                      Inv.Start: ........ 0  |
+|  Clock values range:                                                        |
+|  PCR: ............. 1,367  PTS: ............... 342                         |
+|  from . 1,485,253,657,127  from ..... 4,950,854,433                         |
+|  to ... 1,486,138,537,911  to ....... 4,953,800,673                         |
+|  Leaps: ............... 0  Leaps: ............... 0                         |
+|=============================================================================|
+|  PID: 0x02B2 (690)                                      MPEG-2 Audio (ita)  |
+|  PES stream id: 0xC0 (Audio 0)                                              |
+|  Audio layer II, 192 kb/s, @48,000 Hz, stereo                               |
+|  Service: 0x0D53 (3411) Rai News 24                                         |
+|-----------------------------------------------------------------------------|
+|  Single Service PID        Transport:                Discontinuities:       |
+|  Bitrate: ... 196,722 b/s  Packets: ......... 4,292  Expected: ......... 0  |
+|  Access: .......... Clear  Adapt.F.: ............ 0  Unexpect: ......... 0  |
+|                            Duplicated: .......... 0  PES:                   |
+|                                                      Packets: ........ 134  |
+|                                                      Inv.Start: ........ 0  |
+|  Clock values range:                                                        |
+|                            PTS: ............... 134                         |
+|                            from ..... 2,806,199,595                         |
+|                            to ....... 2,809,128,555                         |
+|                            Leaps: ............... 0                         |
+|=============================================================================|
+|  PID: 0x02B6 (694)                                            MPEG-2 Audio  |
+|  PES stream id: 0xC0 (Audio 0)                                              |
+|  Audio layer II, 64 kb/s, @48,000 Hz, single channel                        |
+|  Service: 0x0D49 (3401) Rai 1                                               |
+|-----------------------------------------------------------------------------|
+|  Single Service PID        Transport:                Discontinuities:       |
+|  Bitrate: .... 66,139 b/s  Packets: ......... 1,443  Expected: ......... 0  |
+|  Access: .......... Clear  Adapt.F.: ............ 0  Unexpect: ......... 0  |
+|                            Duplicated: .......... 0  PES:                   |
+|                                                      Packets: ........ 181  |
+|                                                      Inv.Start: ........ 0  |
+|  Clock values range:                                                        |
+|                            PTS: ............... 181                         |
+|                            from ..... 4,429,192,921                         |
+|                            to ....... 4,432,141,321                         |
+|                            Leaps: ............... 0                         |
+|=============================================================================|
+|  PID: 0x02B7 (695)                                            MPEG-2 Audio  |
+|  PES stream id: 0xC0 (Audio 0)                                              |
+|  Audio layer II, 64 kb/s, @48,000 Hz, single channel                        |
+|  Service: 0x0D4A (3402) Rai 2                                               |
+|-----------------------------------------------------------------------------|
+|  Single Service PID        Transport:                Discontinuities:       |
+|  Bitrate: .... 66,139 b/s  Packets: ......... 1,443  Expected: ......... 0  |
+|  Access: .......... Clear  Adapt.F.: ............ 0  Unexpect: ......... 0  |
+|                            Duplicated: .......... 0  PES:                   |
+|                                                      Packets: ........ 180  |
+|                                                      Inv.Start: ........ 0  |
+|  Clock values range:                                                        |
+|                            PTS: ............... 180                         |
+|                            from ....... 683,817,435                         |
+|                            to ......... 686,748,555                         |
+|                            Leaps: ............... 0                         |
+|=============================================================================|
+|  PID: 0x02B8 (696)                                      MPEG-2 Audio (eng)  |
+|  PES stream id: 0xC0 (Audio 0)                                              |
+|  Audio layer II, 192 kb/s, @48,000 Hz, stereo                               |
+|  Service: 0x0D4A (3402) Rai 2                                               |
+|-----------------------------------------------------------------------------|
+|  Single Service PID        Transport:                Discontinuities:       |
+|  Bitrate: ... 196,722 b/s  Packets: ......... 4,292  Expected: ......... 0  |
+|  Access: .......... Clear  Adapt.F.: ............ 0  Unexpect: ......... 0  |
+|                            Duplicated: .......... 0  PES:                   |
+|                                                      Packets: ........ 134  |
+|                                                      Inv.Start: ........ 0  |
+|  Clock values range:                                                        |
+|                            PTS: ............... 134                         |
+|                            from ....... 683,822,113                         |
+|                            to ......... 686,751,073                         |
+|                            Leaps: ............... 0                         |
+|=============================================================================|
+|  PID: 0x02B9 (697)                                      MPEG-2 Audio (Oth)  |
+|  PES stream id: 0xC0 (Audio 0)                                              |
+|  Audio layer II, 64 kb/s, @48,000 Hz, single channel                        |
+|  Service: 0x0D4B (3403) Rai 3 TGR Sardegna                                  |
+|-----------------------------------------------------------------------------|
+|  Single Service PID        Transport:                Discontinuities:       |
+|  Bitrate: .... 66,093 b/s  Packets: ......... 1,442  Expected: ......... 0  |
+|  Access: .......... Clear  Adapt.F.: ............ 0  Unexpect: ......... 0  |
+|                            Duplicated: .......... 0  PES:                   |
+|                                                      Packets: ........ 180  |
+|                                                      Inv.Start: ........ 0  |
+|  Clock values range:                                                        |
+|                            PTS: ............... 180                         |
+|                            from ....... 805,558,131                         |
+|                            to ......... 808,491,411                         |
+|                            Leaps: ............... 0                         |
+|=============================================================================|
+|  PID: 0x02BB (699)                                      MPEG-2 Audio (eng)  |
+|  PES stream id: 0xC0 (Audio 0)                                              |
+|  Service: 0x0D49 (3401) Rai 1                                               |
+|-----------------------------------------------------------------------------|
+|  Single Service PID        Transport:                Discontinuities:       |
+|  Bitrate: ... 131,545 b/s  Packets: ......... 2,870  Expected: ......... 0  |
+|  Access: .......... Clear  Adapt.F.: ............ 0  Unexpect: ......... 0  |
+|                            Duplicated: .......... 0  PES:                   |
+|                                                      Packets: ........ 180  |
+|                                                      Inv.Start: ........ 0  |
+|  Clock values range:                                                        |
+|                            PTS: ............... 180                         |
+|                            from ..... 4,429,190,517                         |
+|                            to ....... 4,432,138,917                         |
+|                            Leaps: ............... 0                         |
+|=============================================================================|
+|  PID: 0x07D1 (2001)                          MPEG-2 Private sections (AIT)  |
+|  Service: 0x0D49 (3401) Rai 1                                               |
+|  Service: 0x0D4A (3402) Rai 2                                               |
+|  Service: 0x0D4B (3403) Rai 3 TGR Sardegna                                  |
+|  Service: 0x0D4C (3404) Rai Radio1                                          |
+|  Service: 0x0D4D (3405) Rai Radio2                                          |
+|  Service: 0x0D4E (3406) Rai Radio3                                          |
+|  Service: 0x0D53 (3411) Rai News 24                                         |
+|-----------------------------------------------------------------------------|
+|  Shared PID                Transport:                Discontinuities:       |
+|  Bitrate: ..... 4,538 b/s  Packets: ............ 99  Expected: ........ 32  |
+|  Access: .......... Clear  Adapt.F.: ........... 33  Unexpect: ......... 0  |
+|                            Duplicated: .......... 0  Sections:              |
+|                                                      Unit start: ...... 33  |
+|=============================================================================|
+|  PID: 0x07D2 (2002)                          MPEG-2 Private sections (AIT)  |
+|  Service: 0x0D49 (3401) Rai 1                                               |
+|  Service: 0x0D4A (3402) Rai 2                                               |
+|  Service: 0x0D4B (3403) Rai 3 TGR Sardegna                                  |
+|  Service: 0x0D4C (3404) Rai Radio1                                          |
+|  Service: 0x0D4D (3405) Rai Radio2                                          |
+|  Service: 0x0D4E (3406) Rai Radio3                                          |
+|  Service: 0x0D53 (3411) Rai News 24                                         |
+|-----------------------------------------------------------------------------|
+|  Shared PID                Transport:                Discontinuities:       |
+|  Bitrate: ..... 4,538 b/s  Packets: ............ 99  Expected: ........ 32  |
+|  Access: .......... Clear  Adapt.F.: ........... 33  Unexpect: ......... 0  |
+|                            Duplicated: .......... 0  Sections:              |
+|                                                      Unit start: ...... 33  |
+|=============================================================================|
+|  PID: 0x0BB9 (3001)                       DSM-CC U-N (MHP Object Carousel)  |
+|  Service: 0x0D49 (3401) Rai 1                                               |
+|  Service: 0x0D4A (3402) Rai 2                                               |
+|  Service: 0x0D4B (3403) Rai 3 TGR Sardegna                                  |
+|  Service: 0x0D4C (3404) Rai Radio1                                          |
+|  Service: 0x0D4D (3405) Rai Radio2                                          |
+|  Service: 0x0D4E (3406) Rai Radio3                                          |
+|  Service: 0x0D53 (3411) Rai News 24                                         |
+|-----------------------------------------------------------------------------|
+|  Shared PID                Transport:                Discontinuities:       |
+|  Bitrate: ... 100,103 b/s  Packets: ......... 2,184  Expected: ......... 0  |
+|  Access: .......... Clear  Adapt.F.: ............ 0  Unexpect: ......... 0  |
+|                            Duplicated: .......... 0  Sections:              |
+|                                                      Unit start: ..... 125  |
+|=============================================================================|
+|  PID: 0x0BBA (3002)                                     DSM-CC U-N (HbbTV)  |
+|  Service: 0x0D49 (3401) Rai 1                                               |
+|  Service: 0x0D4A (3402) Rai 2                                               |
+|  Service: 0x0D4B (3403) Rai 3 TGR Sardegna                                  |
+|  Service: 0x0D4C (3404) Rai Radio1                                          |
+|  Service: 0x0D4D (3405) Rai Radio2                                          |
+|  Service: 0x0D4E (3406) Rai Radio3                                          |
+|  Service: 0x0D53 (3411) Rai News 24                                         |
+|-----------------------------------------------------------------------------|
+|  Shared PID                Transport:                Discontinuities:       |
+|  Bitrate: .... 50,006 b/s  Packets: ......... 1,091  Expected: ......... 0  |
+|  Access: .......... Clear  Adapt.F.: ............ 0  Unexpect: ......... 0  |
+|                            Duplicated: .......... 0  Sections:              |
+|                                                      Unit start: ...... 71  |
+|=============================================================================|
+|  PID: 0x0C1D (3101)                              DSM-CC Stream Descriptors  |
+|  Service: 0x0D49 (3401) Rai 1                                               |
+|  Service: 0x0D4A (3402) Rai 2                                               |
+|  Service: 0x0D4B (3403) Rai 3 TGR Sardegna                                  |
+|  Service: 0x0D4C (3404) Rai Radio1                                          |
+|  Service: 0x0D4D (3405) Rai Radio2                                          |
+|  Service: 0x0D4E (3406) Rai Radio3                                          |
+|  Service: 0x0D53 (3411) Rai News 24                                         |
+|-----------------------------------------------------------------------------|
+|  Shared PID                Transport:                Discontinuities:       |
+|  Bitrate: ..... 1,513 b/s  Packets: ............ 33  Expected: ........ 32  |
+|  Access: .......... Clear  Adapt.F.: ........... 33  Unexpect: ......... 0  |
+|                            Duplicated: .......... 0  Sections:              |
+|                                                      Unit start: ...... 33  |
+|=============================================================================|
+|  PID: 0x1FFF (8191)                                               Stuffing  |
+|-----------------------------------------------------------------------------|
+|  Global PID                Transport:                Discontinuities:       |
+|  Bitrate: . 2,571,320 b/s  Packets: ........ 56,100  Expected: ......... 0  |
+|  Access: .......... Clear  Adapt.F.: ............ 0  Unexpect: ......... 0  |
+|                            Duplicated: .......... 0  Sections:              |
+|                                                      Unit start: ....... 0  |
+===============================================================================
+
+
+===============================================================================
+|  TABLES & SECTIONS ANALYSIS REPORT                                          |
+|=============================================================================|
+|  PID: 0x0000 (0)                                                       PAT  |
+|-----------------------------------------------------------------------------|
+|  0x00 (0, PAT), TID ext: 0x0001 (1)                                         |
+|      Repetition: ..... 102  ms  Section cnt: ...... 323                     |
+|      Min repet.: ...... 98  ms  Table cnt: ........ 323                     |
+|      Max repet.: ..... 119  ms  Version: ............ 0                     |
+|=============================================================================|
+|  PID: 0x0001 (1)                                                       CAT  |
+|-----------------------------------------------------------------------------|
+|  0x01 (1, CAT), TID ext: 0xFFFF (65535)                                     |
+|      Repetition: ..... 101  ms  Section cnt: ...... 324                     |
+|      Min repet.: ...... 98  ms  Table cnt: ........ 324                     |
+|      Max repet.: ..... 119  ms  Version: ............ 0                     |
+|=============================================================================|
+|  PID: 0x0010 (16)                                                      NIT  |
+|-----------------------------------------------------------------------------|
+|  0x40 (64, NIT Actual), TID ext: 0x3001 (12289)                             |
+|      Repetition: .... 7975  ms  Section cnt: ........ 4                     |
+|      Min repet.: .... 7907  ms  Table cnt: .......... 4                     |
+|      Max repet.: .... 8099  ms  Version: ............ 3                     |
+|=============================================================================|
+|  PID: 0x0011 (17)                                                  SDT/BAT  |
+|-----------------------------------------------------------------------------|
+|  0x42 (66, SDT Actual), TID ext: 0x0001 (1)                                 |
+|      Repetition: ..... 908  ms  Section cnt: ....... 36                     |
+|      Min repet.: ..... 712  ms  Table cnt: ......... 36                     |
+|      Max repet.: .... 1243  ms  Version: ............ 7                     |
+|-----------------------------------------------------------------------------|
+|  0x46 (70, SDT Other), TID ext: 0x0002 (2)                                  |
+|      Repetition: .... 2295  ms  Section cnt: ....... 14                     |
+|      Min repet.: .... 1981  ms  Table cnt: ......... 14                     |
+|      Max repet.: .... 2584  ms  Version: ............ 0                     |
+|-----------------------------------------------------------------------------|
+|  0x46 (70, SDT Other), TID ext: 0x0004 (4)                                  |
+|      Repetition: .... 2272  ms  Section cnt: ....... 14                     |
+|      Min repet.: .... 2255  ms  Table cnt: ......... 14                     |
+|      Max repet.: .... 2311  ms  Version: ............ 0                     |
+|-----------------------------------------------------------------------------|
+|  0x46 (70, SDT Other), TID ext: 0x0005 (5)                                  |
+|      Repetition: .... 2274  ms  Section cnt: ....... 15                     |
+|      Min repet.: .... 1771  ms  Table cnt: ......... 15                     |
+|      Max repet.: .... 2767  ms  Version: ............ 0                     |
+|=============================================================================|
+|  PID: 0x0012 (18)                                                      EIT  |
+|-----------------------------------------------------------------------------|
+|  0x4E (78, EIT p/f Actual), TID ext: 0x0D49 (3401)                          |
+|      Repetition: ... 16757  ms  Section cnt: ........ 4                     |
+|      Min repet.: ... 16757  ms  Table cnt: .......... 2                     |
+|      Max repet.: ... 16757  ms  Version: ........... 22                     |
+|-----------------------------------------------------------------------------|
+|  0x4E (78, EIT p/f Actual), TID ext: 0x0D4A (3402)                          |
+|      Repetition: ... 16851  ms  Section cnt: ........ 4                     |
+|      Min repet.: ... 16851  ms  Table cnt: .......... 2                     |
+|      Max repet.: ... 16851  ms  Version: ........... 18                     |
+|-----------------------------------------------------------------------------|
+|  0x4E (78, EIT p/f Actual), TID ext: 0x0D4B (3403)                          |
+|      Repetition: ... 17129  ms  Section cnt: ........ 4                     |
+|      Min repet.: ... 17129  ms  Table cnt: .......... 2                     |
+|      Max repet.: ... 17129  ms  Version: ............ 6                     |
+|-----------------------------------------------------------------------------|
+|  0x4E (78, EIT p/f Actual), TID ext: 0x0D4C (3404)                          |
+|      Repetition: ... 17178  ms  Section cnt: ........ 4                     |
+|      Min repet.: ... 17178  ms  Table cnt: .......... 2                     |
+|      Max repet.: ... 17178  ms  Version: ........... 14                     |
+|-----------------------------------------------------------------------------|
+|  0x4E (78, EIT p/f Actual), TID ext: 0x0D4D (3405)                          |
+|      Repetition: ... 17153  ms  Section cnt: ........ 4                     |
+|      Min repet.: ... 17153  ms  Table cnt: .......... 2                     |
+|      Max repet.: ... 17153  ms  Version: ........... 28                     |
+|-----------------------------------------------------------------------------|
+|  0x4E (78, EIT p/f Actual), TID ext: 0x0D4E (3406)                          |
+|      Repetition: ... 17277  ms  Section cnt: ........ 4                     |
+|      Min repet.: ... 17277  ms  Table cnt: .......... 2                     |
+|      Max repet.: ... 17277  ms  Version: ........... 16                     |
+|-----------------------------------------------------------------------------|
+|  0x4E (78, EIT p/f Actual), TID ext: 0x0D53 (3411)                          |
+|      Repetition: ... 17229  ms  Section cnt: ........ 4                     |
+|      Min repet.: ... 17229  ms  Table cnt: .......... 2                     |
+|      Max repet.: ... 17229  ms  Version: ........... 13                     |
+|-----------------------------------------------------------------------------|
+|  0x4F (79, EIT p/f Other), TID ext: 0x0D53 (3411)                           |
+|      Repetition: ....... 0  ms  Section cnt: ........ 1                     |
+|      Min repet.: ....... 0  ms  Table cnt: .......... 0                     |
+|      Max repet.: ....... 0  ms                                              |
+|-----------------------------------------------------------------------------|
+|  0x4F (79, EIT p/f Other), TID ext: 0x2172 (8562)                           |
+|      Repetition: ....... 0  ms  Section cnt: ........ 1                     |
+|      Min repet.: ....... 0  ms  Table cnt: .......... 0                     |
+|      Max repet.: ....... 0  ms                                              |
+|-----------------------------------------------------------------------------|
+|  0x4F (79, EIT p/f Other), TID ext: 0x2175 (8565)                           |
+|      Repetition: ....... 0  ms  Section cnt: ........ 2                     |
+|      Min repet.: ....... 0  ms  Table cnt: .......... 1                     |
+|      Max repet.: ....... 0  ms  Version: ........... 28                     |
+|-----------------------------------------------------------------------------|
+|  0x4F (79, EIT p/f Other), TID ext: 0x217B (8571)                           |
+|      Repetition: ....... 0  ms  Section cnt: ........ 2                     |
+|      Min repet.: ....... 0  ms  Table cnt: .......... 1                     |
+|      Max repet.: ....... 0  ms  Version: ............ 1                     |
+|-----------------------------------------------------------------------------|
+|  0x4F (79, EIT p/f Other), TID ext: 0x217C (8572)                           |
+|      Repetition: ....... 0  ms  Section cnt: ........ 2                     |
+|      Min repet.: ....... 0  ms  Table cnt: .......... 1                     |
+|      Max repet.: ....... 0  ms  Version: ............ 4                     |
+|-----------------------------------------------------------------------------|
+|  0x4F (79, EIT p/f Other), TID ext: 0x217D (8573)                           |
+|      Repetition: ....... 0  ms  Section cnt: ........ 2                     |
+|      Min repet.: ....... 0  ms  Table cnt: .......... 1                     |
+|      Max repet.: ....... 0  ms  Version: ............ 8                     |
+|-----------------------------------------------------------------------------|
+|  0x4F (79, EIT p/f Other), TID ext: 0x217E (8574)                           |
+|      Repetition: ....... 0  ms  Section cnt: ........ 1                     |
+|      Min repet.: ....... 0  ms  Table cnt: .......... 1                     |
+|      Max repet.: ....... 0  ms  Version: ........... 27                     |
+|-----------------------------------------------------------------------------|
+|  0x4F (79, EIT p/f Other), TID ext: 0x2180 (8576)                           |
+|      Repetition: ....... 0  ms  Section cnt: ........ 1                     |
+|      Min repet.: ....... 0  ms  Table cnt: .......... 1                     |
+|      Max repet.: ....... 0  ms  Version: ............ 3                     |
+|-----------------------------------------------------------------------------|
+|  0x4F (79, EIT p/f Other), TID ext: 0x2181 (8577)                           |
+|      Repetition: ....... 0  ms  Section cnt: ........ 1                     |
+|      Min repet.: ....... 0  ms  Table cnt: .......... 1                     |
+|      Max repet.: ....... 0  ms  Version: ........... 22                     |
+|-----------------------------------------------------------------------------|
+|  0x4F (79, EIT p/f Other), TID ext: 0x2182 (8578)                           |
+|      Repetition: ....... 0  ms  Section cnt: ........ 1                     |
+|      Min repet.: ....... 0  ms  Table cnt: .......... 1                     |
+|      Max repet.: ....... 0  ms  Version: ............ 9                     |
+|-----------------------------------------------------------------------------|
+|  0x4F (79, EIT p/f Other), TID ext: 0x2183 (8579)                           |
+|      Repetition: ....... 0  ms  Section cnt: ........ 1                     |
+|      Min repet.: ....... 0  ms  Table cnt: .......... 1                     |
+|      Max repet.: ....... 0  ms  Version: ........... 30                     |
+|-----------------------------------------------------------------------------|
+|  0x4F (79, EIT p/f Other), TID ext: 0x2185 (8581)                           |
+|      Repetition: ....... 0  ms  Section cnt: ........ 1                     |
+|      Min repet.: ....... 0  ms  Table cnt: .......... 1                     |
+|      Max repet.: ....... 0  ms  Version: ........... 18                     |
+|-----------------------------------------------------------------------------|
+|  0x4F (79, EIT p/f Other), TID ext: 0x2186 (8582)                           |
+|      Repetition: ....... 0  ms  Section cnt: ........ 1                     |
+|      Min repet.: ....... 0  ms  Table cnt: .......... 1                     |
+|      Max repet.: ....... 0  ms  Version: ........... 11                     |
+|-----------------------------------------------------------------------------|
+|  0x4F (79, EIT p/f Other), TID ext: 0x2187 (8583)                           |
+|      Repetition: ....... 0  ms  Section cnt: ........ 1                     |
+|      Min repet.: ....... 0  ms  Table cnt: .......... 1                     |
+|      Max repet.: ....... 0  ms  Version: ........... 29                     |
+|-----------------------------------------------------------------------------|
+|  0x4F (79, EIT p/f Other), TID ext: 0x2188 (8584)                           |
+|      Repetition: ....... 0  ms  Section cnt: ........ 1                     |
+|      Min repet.: ....... 0  ms  Table cnt: .......... 1                     |
+|      Max repet.: ....... 0  ms  Version: ........... 14                     |
+|-----------------------------------------------------------------------------|
+|  0x4F (79, EIT p/f Other), TID ext: 0x2189 (8585)                           |
+|      Repetition: ....... 0  ms  Section cnt: ........ 1                     |
+|      Min repet.: ....... 0  ms  Table cnt: .......... 1                     |
+|      Max repet.: ....... 0  ms  Version: ........... 22                     |
+|-----------------------------------------------------------------------------|
+|  0x4F (79, EIT p/f Other), TID ext: 0x218A (8586)                           |
+|      Repetition: ....... 0  ms  Section cnt: ........ 1                     |
+|      Min repet.: ....... 0  ms  Table cnt: .......... 1                     |
+|      Max repet.: ....... 0  ms  Version: ........... 17                     |
+|-----------------------------------------------------------------------------|
+|  0x4F (79, EIT p/f Other), TID ext: 0x218C (8588)                           |
+|      Repetition: ....... 0  ms  Section cnt: ........ 1                     |
+|      Min repet.: ....... 0  ms  Table cnt: .......... 1                     |
+|      Max repet.: ....... 0  ms  Version: ........... 21                     |
+|-----------------------------------------------------------------------------|
+|  0x4F (79, EIT p/f Other), TID ext: 0x218E (8590)                           |
+|      Repetition: ....... 0  ms  Section cnt: ........ 1                     |
+|      Min repet.: ....... 0  ms  Table cnt: .......... 1                     |
+|      Max repet.: ....... 0  ms  Version: ........... 31                     |
+|-----------------------------------------------------------------------------|
+|  0x4F (79, EIT p/f Other), TID ext: 0x2190 (8592)                           |
+|      Repetition: ....... 0  ms  Section cnt: ........ 1                     |
+|      Min repet.: ....... 0  ms  Table cnt: .......... 1                     |
+|      Max repet.: ....... 0  ms  Version: ........... 19                     |
+|-----------------------------------------------------------------------------|
+|  0x4F (79, EIT p/f Other), TID ext: 0x2191 (8593)                           |
+|      Repetition: ....... 0  ms  Section cnt: ........ 1                     |
+|      Min repet.: ....... 0  ms  Table cnt: .......... 1                     |
+|      Max repet.: ....... 0  ms  Version: ............ 4                     |
+|-----------------------------------------------------------------------------|
+|  0x4F (79, EIT p/f Other), TID ext: 0x2197 (8599)                           |
+|      Repetition: ....... 0  ms  Section cnt: ........ 1                     |
+|      Min repet.: ....... 0  ms  Table cnt: .......... 1                     |
+|      Max repet.: ....... 0  ms  Version: ........... 31                     |
+|-----------------------------------------------------------------------------|
+|  0x50 (80, EIT schedule Actual), TID ext: 0x0D49 (3401)                     |
+|      Repetition: ....... 0  ms  Section cnt: ........ 6                     |
+|      Min repet.: ....... 0  ms  Table cnt: .......... 0                     |
+|      Max repet.: ....... 0  ms                                              |
+|-----------------------------------------------------------------------------|
+|  0x50 (80, EIT schedule Actual), TID ext: 0x0D4A (3402)                     |
+|      Repetition: ....... 0  ms  Section cnt: ........ 6                     |
+|      Min repet.: ....... 0  ms  Table cnt: .......... 0                     |
+|      Max repet.: ....... 0  ms                                              |
+|-----------------------------------------------------------------------------|
+|  0x50 (80, EIT schedule Actual), TID ext: 0x0D4B (3403)                     |
+|      Repetition: ....... 0  ms  Section cnt: ........ 6                     |
+|      Min repet.: ....... 0  ms  Table cnt: .......... 0                     |
+|      Max repet.: ....... 0  ms                                              |
+|-----------------------------------------------------------------------------|
+|  0x50 (80, EIT schedule Actual), TID ext: 0x0D4C (3404)                     |
+|      Repetition: ....... 0  ms  Section cnt: ........ 6                     |
+|      Min repet.: ....... 0  ms  Table cnt: .......... 0                     |
+|      Max repet.: ....... 0  ms                                              |
+|-----------------------------------------------------------------------------|
+|  0x50 (80, EIT schedule Actual), TID ext: 0x0D4D (3405)                     |
+|      Repetition: ....... 0  ms  Section cnt: ........ 6                     |
+|      Min repet.: ....... 0  ms  Table cnt: .......... 0                     |
+|      Max repet.: ....... 0  ms                                              |
+|-----------------------------------------------------------------------------|
+|  0x50 (80, EIT schedule Actual), TID ext: 0x0D4E (3406)                     |
+|      Repetition: ....... 0  ms  Section cnt: ........ 6                     |
+|      Min repet.: ....... 0  ms  Table cnt: .......... 0                     |
+|      Max repet.: ....... 0  ms                                              |
+|-----------------------------------------------------------------------------|
+|  0x50 (80, EIT schedule Actual), TID ext: 0x0D53 (3411)                     |
+|      Repetition: ....... 0  ms  Section cnt: ........ 6                     |
+|      Min repet.: ....... 0  ms  Table cnt: .......... 0                     |
+|      Max repet.: ....... 0  ms                                              |
+|-----------------------------------------------------------------------------|
+|  0x60 (96, EIT schedule Other), TID ext: 0x2172 (8562)                      |
+|      Repetition: ....... 0  ms  Section cnt: ........ 7                     |
+|      Min repet.: ....... 0  ms  Table cnt: .......... 0                     |
+|      Max repet.: ....... 0  ms                                              |
+|-----------------------------------------------------------------------------|
+|  0x60 (96, EIT schedule Other), TID ext: 0x2175 (8565)                      |
+|      Repetition: ....... 0  ms  Section cnt: ........ 7                     |
+|      Min repet.: ....... 0  ms  Table cnt: .......... 0                     |
+|      Max repet.: ....... 0  ms                                              |
+|-----------------------------------------------------------------------------|
+|  0x60 (96, EIT schedule Other), TID ext: 0x2180 (8576)                      |
+|      Repetition: ....... 0  ms  Section cnt: ........ 7                     |
+|      Min repet.: ....... 0  ms  Table cnt: .......... 0                     |
+|      Max repet.: ....... 0  ms                                              |
+|-----------------------------------------------------------------------------|
+|  0x60 (96, EIT schedule Other), TID ext: 0x2181 (8577)                      |
+|      Repetition: ....... 0  ms  Section cnt: ........ 7                     |
+|      Min repet.: ....... 0  ms  Table cnt: .......... 0                     |
+|      Max repet.: ....... 0  ms                                              |
+|-----------------------------------------------------------------------------|
+|  0x60 (96, EIT schedule Other), TID ext: 0x2183 (8579)                      |
+|      Repetition: ....... 0  ms  Section cnt: ........ 8                     |
+|      Min repet.: ....... 0  ms  Table cnt: .......... 0                     |
+|      Max repet.: ....... 0  ms                                              |
+|-----------------------------------------------------------------------------|
+|  0x60 (96, EIT schedule Other), TID ext: 0x2185 (8581)                      |
+|      Repetition: ....... 0  ms  Section cnt: ........ 8                     |
+|      Min repet.: ....... 0  ms  Table cnt: .......... 0                     |
+|      Max repet.: ....... 0  ms                                              |
+|-----------------------------------------------------------------------------|
+|  0x60 (96, EIT schedule Other), TID ext: 0x2186 (8582)                      |
+|      Repetition: ....... 0  ms  Section cnt: ........ 8                     |
+|      Min repet.: ....... 0  ms  Table cnt: .......... 0                     |
+|      Max repet.: ....... 0  ms                                              |
+|-----------------------------------------------------------------------------|
+|  0x60 (96, EIT schedule Other), TID ext: 0x2187 (8583)                      |
+|      Repetition: ....... 0  ms  Section cnt: ........ 8                     |
+|      Min repet.: ....... 0  ms  Table cnt: .......... 0                     |
+|      Max repet.: ....... 0  ms                                              |
+|-----------------------------------------------------------------------------|
+|  0x60 (96, EIT schedule Other), TID ext: 0x2188 (8584)                      |
+|      Repetition: ....... 0  ms  Section cnt: ........ 8                     |
+|      Min repet.: ....... 0  ms  Table cnt: .......... 0                     |
+|      Max repet.: ....... 0  ms                                              |
+|-----------------------------------------------------------------------------|
+|  0x60 (96, EIT schedule Other), TID ext: 0x2189 (8585)                      |
+|      Repetition: ....... 0  ms  Section cnt: ........ 8                     |
+|      Min repet.: ....... 0  ms  Table cnt: .......... 0                     |
+|      Max repet.: ....... 0  ms                                              |
+|-----------------------------------------------------------------------------|
+|  0x60 (96, EIT schedule Other), TID ext: 0x218A (8586)                      |
+|      Repetition: ....... 0  ms  Section cnt: ........ 7                     |
+|      Min repet.: ....... 0  ms  Table cnt: .......... 0                     |
+|      Max repet.: ....... 0  ms                                              |
+|-----------------------------------------------------------------------------|
+|  0x60 (96, EIT schedule Other), TID ext: 0x218C (8588)                      |
+|      Repetition: ....... 0  ms  Section cnt: ........ 7                     |
+|      Min repet.: ....... 0  ms  Table cnt: .......... 0                     |
+|      Max repet.: ....... 0  ms                                              |
+|-----------------------------------------------------------------------------|
+|  0x60 (96, EIT schedule Other), TID ext: 0x218E (8590)                      |
+|      Repetition: ....... 0  ms  Section cnt: ........ 7                     |
+|      Min repet.: ....... 0  ms  Table cnt: .......... 0                     |
+|      Max repet.: ....... 0  ms                                              |
+|-----------------------------------------------------------------------------|
+|  0x60 (96, EIT schedule Other), TID ext: 0x2190 (8592)                      |
+|      Repetition: ....... 0  ms  Section cnt: ........ 7                     |
+|      Min repet.: ....... 0  ms  Table cnt: .......... 0                     |
+|      Max repet.: ....... 0  ms                                              |
+|-----------------------------------------------------------------------------|
+|  0x60 (96, EIT schedule Other), TID ext: 0x2191 (8593)                      |
+|      Repetition: ....... 0  ms  Section cnt: ........ 7                     |
+|      Min repet.: ....... 0  ms  Table cnt: .......... 0                     |
+|      Max repet.: ....... 0  ms                                              |
+|-----------------------------------------------------------------------------|
+|  0x60 (96, EIT schedule Other), TID ext: 0x2197 (8599)                      |
+|      Repetition: ....... 0  ms  Section cnt: ........ 7                     |
+|      Min repet.: ....... 0  ms  Table cnt: .......... 0                     |
+|      Max repet.: ....... 0  ms                                              |
+|=============================================================================|
+|  PID: 0x0014 (20)                                                  TDT/TOT  |
+|-----------------------------------------------------------------------------|
+|  0x70 (112, TDT)                                                            |
+|      Repetition: ....... 0  ms  Section cnt: ........ 1                     |
+|      Min repet.: ....... 0  ms                                              |
+|      Max repet.: ....... 0  ms                                              |
+|-----------------------------------------------------------------------------|
+|  0x73 (115, TOT)                                                            |
+|      Repetition: ....... 0  ms  Section cnt: ........ 1                     |
+|      Min repet.: ....... 0  ms                                              |
+|      Max repet.: ....... 0  ms                                              |
+|=============================================================================|
+|  PID: 0x0015 (21)                                  Network Synchronization  |
+|-----------------------------------------------------------------------------|
+|  0x13 (19, unknown)                                                         |
+|      Repetition: .... 7658  ms  Section cnt: ........ 4                     |
+|      Min repet.: .... 6006  ms                                              |
+|      Max repet.: .... 9507  ms                                              |
+|=============================================================================|
+|  PID: 0x0100 (256)                                                     PMT  |
+|  Service: 0x0D4B (3403) Rai 3 TGR Sardegna                                  |
+|-----------------------------------------------------------------------------|
+|  0x02 (2, PMT), TID ext: 0x0D4B (3403)                                      |
+|      Repetition: ...... 96  ms  Section cnt: ...... 342                     |
+|      Min repet.: ...... 81  ms  Table cnt: ........ 342                     |
+|      Max repet.: ..... 128  ms  Version: ............ 2                     |
+|=============================================================================|
+|  PID: 0x0101 (257)                                                     PMT  |
+|  Service: 0x0D4A (3402) Rai 2                                               |
+|-----------------------------------------------------------------------------|
+|  0x02 (2, PMT), TID ext: 0x0D4A (3402)                                      |
+|      Repetition: ...... 96  ms  Section cnt: ...... 342                     |
+|      Min repet.: ...... 81  ms  Table cnt: ........ 342                     |
+|      Max repet.: ..... 128  ms  Version: ............ 5                     |
+|=============================================================================|
+|  PID: 0x0102 (258)                                                     PMT  |
+|  Service: 0x0D49 (3401) Rai 1                                               |
+|-----------------------------------------------------------------------------|
+|  0x02 (2, PMT), TID ext: 0x0D49 (3401)                                      |
+|      Repetition: ...... 96  ms  Section cnt: ...... 342                     |
+|      Min repet.: ...... 80  ms  Table cnt: ........ 342                     |
+|      Max repet.: ..... 128  ms  Version: ............ 6                     |
+|=============================================================================|
+|  PID: 0x0103 (259)                                                     PMT  |
+|  Service: 0x0D4C (3404) Rai Radio1                                          |
+|-----------------------------------------------------------------------------|
+|  0x02 (2, PMT), TID ext: 0x0D4C (3404)                                      |
+|      Repetition: ...... 96  ms  Section cnt: ...... 342                     |
+|      Min repet.: ...... 80  ms  Table cnt: ........ 342                     |
+|      Max repet.: ..... 128  ms  Version: ............ 2                     |
+|=============================================================================|
+|  PID: 0x0104 (260)                                                     PMT  |
+|  Service: 0x0D4D (3405) Rai Radio2                                          |
+|-----------------------------------------------------------------------------|
+|  0x02 (2, PMT), TID ext: 0x0D4D (3405)                                      |
+|      Repetition: ...... 96  ms  Section cnt: ...... 343                     |
+|      Min repet.: ...... 81  ms  Table cnt: ........ 343                     |
+|      Max repet.: ..... 129  ms  Version: ............ 2                     |
+|=============================================================================|
+|  PID: 0x0105 (261)                                                     PMT  |
+|  Service: 0x0D4E (3406) Rai Radio3                                          |
+|-----------------------------------------------------------------------------|
+|  0x02 (2, PMT), TID ext: 0x0D4E (3406)                                      |
+|      Repetition: ...... 96  ms  Section cnt: ...... 342                     |
+|      Min repet.: ...... 81  ms  Table cnt: ........ 342                     |
+|      Max repet.: ..... 136  ms  Version: ............ 2                     |
+|=============================================================================|
+|  PID: 0x0118 (280)                                                     PMT  |
+|  Service: 0x0D53 (3411) Rai News 24                                         |
+|-----------------------------------------------------------------------------|
+|  0x02 (2, PMT), TID ext: 0x0D53 (3411)                                      |
+|      Repetition: ...... 96  ms  Section cnt: ...... 343                     |
+|      Min repet.: ...... 73  ms  Table cnt: ........ 343                     |
+|      Max repet.: ..... 128  ms  Version: ............ 5                     |
+|=============================================================================|
+|  PID: 0x012C (300)                                                     PMT  |
+|  Service: 0x0D52 (3410) Test HEVC main10                                    |
+|-----------------------------------------------------------------------------|
+|  0x02 (2, PMT), TID ext: 0x0D52 (3410)                                      |
+|      Repetition: ...... 96  ms  Section cnt: ...... 343                     |
+|      Min repet.: ...... 79  ms  Table cnt: ........ 343                     |
+|      Max repet.: ..... 128  ms  Version: ............ 7                     |
+|=============================================================================|
+|  PID: 0x07D1 (2001)                          MPEG-2 Private sections (AIT)  |
+|  Service: 0x0D49 (3401) Rai 1                                               |
+|  Service: 0x0D4A (3402) Rai 2                                               |
+|  Service: 0x0D4B (3403) Rai 3 TGR Sardegna                                  |
+|  Service: 0x0D4C (3404) Rai Radio1                                          |
+|  Service: 0x0D4D (3405) Rai Radio2                                          |
+|  Service: 0x0D4E (3406) Rai Radio3                                          |
+|  Service: 0x0D53 (3411) Rai News 24                                         |
+|-----------------------------------------------------------------------------|
+|  0x74 (116, AIT), TID ext: 0x0001 (1)                                       |
+|      Repetition: ..... 998  ms  Section cnt: ....... 33                     |
+|      Min repet.: ..... 989  ms  Table cnt: ......... 33                     |
+|      Max repet.: .... 1005  ms  Version: ............ 0                     |
+|=============================================================================|
+|  PID: 0x07D2 (2002)                          MPEG-2 Private sections (AIT)  |
+|  Service: 0x0D49 (3401) Rai 1                                               |
+|  Service: 0x0D4A (3402) Rai 2                                               |
+|  Service: 0x0D4B (3403) Rai 3 TGR Sardegna                                  |
+|  Service: 0x0D4C (3404) Rai Radio1                                          |
+|  Service: 0x0D4D (3405) Rai Radio2                                          |
+|  Service: 0x0D4E (3406) Rai Radio3                                          |
+|  Service: 0x0D53 (3411) Rai News 24                                         |
+|-----------------------------------------------------------------------------|
+|  0x74 (116, AIT), TID ext: 0x0010 (16)                                      |
+|      Repetition: ..... 998  ms  Section cnt: ....... 33                     |
+|      Min repet.: ..... 991  ms  Table cnt: ......... 33                     |
+|      Max repet.: .... 1004  ms  Version: ............ 0                     |
+|=============================================================================|
+|  PID: 0x0BB9 (3001)                       DSM-CC U-N (MHP Object Carousel)  |
+|  Service: 0x0D49 (3401) Rai 1                                               |
+|  Service: 0x0D4A (3402) Rai 2                                               |
+|  Service: 0x0D4B (3403) Rai 3 TGR Sardegna                                  |
+|  Service: 0x0D4C (3404) Rai Radio1                                          |
+|  Service: 0x0D4D (3405) Rai Radio2                                          |
+|  Service: 0x0D4E (3406) Rai Radio3                                          |
+|  Service: 0x0D53 (3411) Rai News 24                                         |
+|-----------------------------------------------------------------------------|
+|  0x3B (59, DSM-CC UNM), TID ext: 0x0000 (0)                                 |
+|      Repetition: .... 3083  ms  Section cnt: ....... 11                     |
+|      Min repet.: .... 2718  ms  Table cnt: ......... 11                     |
+|      Max repet.: .... 3325  ms  Version: ............ 0                     |
+|-----------------------------------------------------------------------------|
+|  0x3B (59, DSM-CC UNM), TID ext: 0x0003 (3)                                 |
+|      Repetition: .... 3084  ms  Section cnt: ....... 11                     |
+|      Min repet.: .... 2719  ms  Table cnt: ......... 11                     |
+|      Max repet.: .... 3323  ms  Version: ............ 0                     |
+|-----------------------------------------------------------------------------|
+|  0x3C (60, DSM-CC DDM), TID ext: 0x0000 (0)                                 |
+|      Repetition: ... 15362  ms  Section cnt: ....... 12                     |
+|      Min repet.: ... 15362  ms  Table cnt: .......... 2                     |
+|      Max repet.: ... 15362  ms  Version: ............ 1                     |
+|-----------------------------------------------------------------------------|
+|  0x3C (60, DSM-CC DDM), TID ext: 0x0001 (1)                                 |
+|      Repetition: ... 15415  ms  Section cnt: ....... 16                     |
+|      Min repet.: ... 15415  ms  Table cnt: .......... 2                     |
+|      Max repet.: ... 15415  ms  Version: ............ 1                     |
+|-----------------------------------------------------------------------------|
+|  0x3C (60, DSM-CC DDM), TID ext: 0x0002 (2)                                 |
+|      Repetition: ... 15410  ms  Section cnt: ....... 30                     |
+|      Min repet.: ... 15410  ms  Table cnt: .......... 2                     |
+|      Max repet.: ... 15410  ms  Version: ............ 1                     |
+|-----------------------------------------------------------------------------|
+|  0x3C (60, DSM-CC DDM), TID ext: 0x0003 (3)                                 |
+|      Repetition: ... 15416  ms  Section cnt: ....... 19                     |
+|      Min repet.: ... 15415  ms  Table cnt: .......... 3                     |
+|      Max repet.: ... 15417  ms  Version: ............ 1                     |
+|-----------------------------------------------------------------------------|
+|  0x3C (60, DSM-CC DDM), TID ext: 0x0004 (4)                                 |
+|      Repetition: ... 15416  ms  Section cnt: ....... 12                     |
+|      Min repet.: ... 15416  ms  Table cnt: .......... 2                     |
+|      Max repet.: ... 15416  ms  Version: ............ 1                     |
+|-----------------------------------------------------------------------------|
+|  0x3C (60, DSM-CC DDM), TID ext: 0x0005 (5)                                 |
+|      Repetition: ... 15405  ms  Section cnt: ....... 12                     |
+|      Min repet.: ... 15405  ms  Table cnt: .......... 2                     |
+|      Max repet.: ... 15405  ms  Version: ............ 1                     |
+|=============================================================================|
+|  PID: 0x0BBA (3002)                                     DSM-CC U-N (HbbTV)  |
+|  Service: 0x0D49 (3401) Rai 1                                               |
+|  Service: 0x0D4A (3402) Rai 2                                               |
+|  Service: 0x0D4B (3403) Rai 3 TGR Sardegna                                  |
+|  Service: 0x0D4C (3404) Rai Radio1                                          |
+|  Service: 0x0D4D (3405) Rai Radio2                                          |
+|  Service: 0x0D4E (3406) Rai Radio3                                          |
+|  Service: 0x0D53 (3411) Rai News 24                                         |
+|-----------------------------------------------------------------------------|
+|  0x3B (59, DSM-CC UNM), TID ext: 0x0000 (0)                                 |
+|      Repetition: .... 3325  ms  Section cnt: ....... 10                     |
+|      Min repet.: .... 2697  ms  Table cnt: ......... 10                     |
+|      Max repet.: .... 4379  ms  Version: ............ 0                     |
+|-----------------------------------------------------------------------------|
+|  0x3B (59, DSM-CC UNM), TID ext: 0x0002 (2)                                 |
+|      Repetition: .... 3325  ms  Section cnt: ....... 10                     |
+|      Min repet.: .... 2694  ms  Table cnt: ......... 10                     |
+|      Max repet.: .... 4361  ms  Version: ............ 0                     |
+|-----------------------------------------------------------------------------|
+|  0x3C (60, DSM-CC DDM), TID ext: 0x0000 (0)                                 |
+|      Repetition: ... 16469  ms  Section cnt: ........ 2                     |
+|      Min repet.: ... 16469  ms  Table cnt: .......... 2                     |
+|      Max repet.: ... 16469  ms  Version: ............ 1                     |
+|-----------------------------------------------------------------------------|
+|  0x3C (60, DSM-CC DDM), TID ext: 0x0001 (1)                                 |
+|      Repetition: ....... 0  ms  Section cnt: ....... 30                     |
+|      Min repet.: ....... 0  ms  Table cnt: .......... 1                     |
+|      Max repet.: ....... 0  ms  Version: ............ 1                     |
+|-----------------------------------------------------------------------------|
+|  0x3C (60, DSM-CC DDM), TID ext: 0x0002 (2)                                 |
+|      Repetition: ... 16484  ms  Section cnt: ........ 4                     |
+|      Min repet.: ... 16484  ms  Table cnt: .......... 2                     |
+|      Max repet.: ... 16484  ms  Version: ............ 0                     |
+|-----------------------------------------------------------------------------|
+|  0x3C (60, DSM-CC DDM), TID ext: 0x0003 (3)                                 |
+|      Repetition: ... 16467  ms  Section cnt: ....... 14                     |
+|      Min repet.: ... 16467  ms  Table cnt: .......... 2                     |
+|      Max repet.: ... 16467  ms  Version: ............ 0                     |
+===============================================================================
+

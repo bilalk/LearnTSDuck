@@ -1,0 +1,20 @@
+/home/user/Desktop/MPEG/tsduck/bin/release-x86_64-LT/objs-libtsduck/tsException.o \
+ /home/user/Desktop/MPEG/tsduck/bin/release-x86_64-LT/objs-libtsduck/tsException.dep: \
+ base/types/tsException.cpp base/types/tsException.h \
+ base/types/tsUString.h base/types/tsUChar.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/cpp/tsPlatform.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/cpp/tsBeforeStandardHeaders.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/cpp/tsAfterStandardHeaders.h \
+ base/types/tsArgMix.h base/types/tsEnumUtils.h \
+ base/types/tsAbstractNumber.h base/types/tsStringifyInterface.h \
+ base/types/tsArgMixTemplate.h base/types/tsUStringTemplate.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/report/tsCerrReport.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/report/tsReport.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsEnumeration.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/algo/tsSingletonManager.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/system/tsMutex.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/system/tsMutexInterface.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/system/tsGuardMutex.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/system/tsSysUtils.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/cpp/tsBeforeStandardHeaders.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/cpp/tsAfterStandardHeaders.h

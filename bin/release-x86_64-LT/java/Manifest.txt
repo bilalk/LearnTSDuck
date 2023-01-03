@@ -1,0 +1,8 @@
+Name: io/tsduck/
+Sealed: true
+Specification-Title: TSDuck Java Bindings
+Specification-Version: 3.33-3126
+Specification-Vendor: Thierry Lelegard
+Implementation-Title: io.tsduck
+Implementation-Version: 3.33-3126
+Implementation-Vendor: Thierry Lelegard

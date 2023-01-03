@@ -1,0 +1,3 @@
+/home/user/Desktop/MPEG/tsduck/bin/release-x86_64-LT/objs-utest/utest.o \
+ /home/user/Desktop/MPEG/tsduck/bin/release-x86_64-LT/objs-utest/utest.dep: \
+ utest.cpp tsunit.h

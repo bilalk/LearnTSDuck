@@ -1,0 +1,10 @@
+/home/user/Desktop/MPEG/tsduck/bin/release-x86_64-LT/objs-utest/utestIntegerUtils.o \
+ /home/user/Desktop/MPEG/tsduck/bin/release-x86_64-LT/objs-utest/utestIntegerUtils.dep: \
+ utestIntegerUtils.cpp \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsIntegerUtils.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsUChar.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/cpp/tsPlatform.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/cpp/tsBeforeStandardHeaders.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/cpp/tsAfterStandardHeaders.h \
+ /home/user/Desktop/MPEG/tsduck/src/libtsduck/base/types/tsIntegerUtilsTemplate.h \
+ tsunit.h

@@ -1,0 +1,8 @@
+#//#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#* Version.inc *#*#*#*#*#*#*#*#*#* (C) 2011-2018 DekTec
+#//
+
+DTU_VERSION_MAJOR = 4
+DTU_VERSION_MINOR = 15
+DTU_VERSION_MICRO = 2
+DTU_VERSION_BUILD = 90
+DTU_VERSION = $(DTU_VERSION_MAJOR).$(DTU_VERSION_MINOR).$(DTU_VERSION_MICRO).$(DTU_VERSION_BUILD)

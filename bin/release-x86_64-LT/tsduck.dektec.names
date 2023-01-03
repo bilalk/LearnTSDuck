@@ -1,0 +1,263 @@
+#----------------------------------------------------------------------------
+#
+#  TSDuck - The MPEG Transport Stream Toolkit
+#  Copyright (c) 2005-2022, Thierry Lelegard
+#  All rights reserved.
+#
+#  Redistribution and use in source and binary forms, with or without
+#  modification, are permitted provided that the following conditions are met:
+#
+#  1. Redistributions of source code must retain the above copyright notice,
+#     this list of conditions and the following disclaimer.
+#  2. Redistributions in binary form must reproduce the above copyright
+#     notice, this list of conditions and the following disclaimer in the
+#     documentation and/or other materials provided with the distribution.
+#
+#  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+#  AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+#  IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+#  ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE
+#  LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+#  CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+#  SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+#  INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+#  CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+#  ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
+#  THE POSSIBILITY OF SUCH DAMAGE.
+#
+#----------------------------------------------------------------------------
+#
+#  Registered names for Dektec devices
+#
+#----------------------------------------------------------------------------
+
+[DtCaps]
+0 = C2Xpert
+1 = DtGrabber+ and DtTV
+2 = DtTV
+3 = DtEncode
+4 = DtJitter
+5 = J2K engine
+6 = MuxXpert runtime
+7 = MuxXpert SDK
+8 = MuxXpert
+9 = StreamXpress remote control
+10 = RFXpert
+11 = StreamXpert Lite
+12 = StreamXpress stream player
+13 = StreamXpress through local NIC
+14 = StreamXpert analyzer
+15 = StreamXpert via local NIC (dongled)
+16 = SdEye
+17 = T2Xpert
+18 = VF-REC
+19 = VF-REC (dongled)
+20 = Xpect
+21 = Advanced RF measurement
+22 = AAC audio encoder
+23 = AC3 audio encoder
+24 = GOLD for audio encoder
+25 = GOLD for two audio encoders
+26 = MPEG1-layer II audio encoder
+27 = Automatic black-frame generation
+28 = DEPRECATED, do not use
+29 = DMA-rate test mode
+30 = A fail-over relay is available
+31 = Fractional mode is supported
+32 = Locked to a genlock reference
+33 = Genlock reference input
+34 = DVB-S2 APSK mode
+35 = Antenna power
+36 = LNB
+37 = Advanced demodulation
+38 = Basic and ATSC3 advanced demodulation
+39 = Basic advanced demodulation
+40 = Basic and DVB-T2 advanced demodulation
+41 = Automatic spectral inversion correction.
+42 = Automatic symbol rate detection.
+43 = Manual symbol rate.
+44 = L-band 950-2150MHz
+45 = VHF-band 47-470MHz
+46 = UHF-band 400-862MHz
+47 = ASI input and output
+48 = SDI input and output
+49 = HDMI 1.4
+50 = HDMI 2.0
+51 = Port is disabled
+52 = Uni-directional input
+53 = Internal input port
+54 = Internal output port
+55 = Monitor of input or output
+56 = Uni-directional output
+57 = Get antenna signal from another port
+58 = Double buffered output
+59 = Loop-through of DVB-S2 in L3-frames
+60 = Loop-through of an DVB-S(2) input
+61 = Loop-through of another input
+62 = ASI output signal can be inverted
+63 = Supports AvFifo interface
+64 = Slaved genlock reference
+65 = Huffman coding for SDI
+66 = Network port supports failover
+67 = L3-frame mode
+68 = Matrix API support
+69 = High-level Matrix API support
+70 = Precision Time Protocol
+71 = Forms a Quad-link group with next 3 ports
+72 = Raw ASI
+73 = 10-bit network byte order
+74 = SDI time-stamping
+75 = Support SFP up to 10G Ethernet
+76 = Support SFP up to 25G Ethernet
+77 = Supports SMPTE-2110
+78 = 64-bit timestamping
+79 = Transparent mode
+80 = MPEG-2 transport stream
+81 = Transmit on timestamp
+82 = Virtual port, no physical connection
+83 = 12G-SDI
+84 = 3G-SDI
+85 = 6G-SDI
+86 = DVB-ASI transport stream
+87 = Audio/video encoder
+88 = DekTec Streaming-data Interface
+89 = Demodulation
+90 = 1PPS and 10MHz GPS-clock input
+91 = HDMI
+92 = HD-SDI
+93 = IF A/D converter
+94 = Transport stream over IP
+95 = Modulator output
+96 = Phase noise injection
+97 = RS422 port
+98 = SDI receiver
+99 = SD-SDI
+100 = DVB-SPI transport stream
+101 = SD-SDI on a parallel port
+102 = 2160p/50 lvl A
+103 = 2160p/50 lvl B
+104 = 2160p/59.94 lvl A
+105 = 2160p/59.94 lvl B
+106 = 2160p/60 lvl A
+107 = 2160p/60 lvl B
+108 = 1080p/50 lvl A
+109 = 1080p/50 lvl B
+110 = 1080p/59.94 lvl A
+111 = 1080p/59.94 lvl B
+112 = 1080p/60 lvl A
+113 = 1080p/60 lvl B
+114 = 2160p/23.98
+115 = 2160p/24
+116 = 2160p/25
+117 = 2160p/29.97
+118 = 2160p/30
+119 = 1080i/50
+120 = 1080i/59.94
+121 = 1080i/60
+122 = 1080p/23.98
+123 = 1080p/24
+124 = 1080p/25
+125 = 1080p/29.97
+126 = 1080p/30
+127 = 1080psf/23.98
+128 = 1080psf/24
+129 = 1080psf/25
+130 = 1080psf/29.97
+131 = 1080psf/30
+132 = 720p/23.98
+133 = 720p/24
+134 = 720p/25
+135 = 720p/29.97
+136 = 720p/30
+137 = 720p/50
+138 = 720p/59.94
+139 = 720p/60
+140 = 525i/59.94
+141 = 625i/50
+142 = SPI 525i/59.94
+143 = SPI 625i/50
+144 = Downscale 12G-SDI to 3G-SDI
+145 = Bypass the downscaler
+146 = High-quality modulation
+147 = Low-power mode
+148 = ATSC 8-VSB modulation
+149 = ATSC3.0 modulation
+150 = CMMB modulation
+151 = DAB modulation
+152 = DRM(+) modulation
+153 = DTMB modulation
+154 = DVB-C2 modulation
+155 = DVB-S modulation
+156 = DVB-S2 modulation
+157 = DVB-S2X modulation
+158 = DVB-T modulation
+159 = DVB-T2 modulation
+160 = GOLD for modulators
+161 = Eight-channel HW modulation
+162 = I/Q sample modulation
+163 = ISDB-S modulation
+164 = ISDB-S3 modulation
+165 = ISDB-T modulation
+166 = ISDB-Tmm modulation
+167 = ATSC-MH modulation
+168 = QAM-A modulation
+169 = QAM-B modulation
+170 = QAM-C modulation
+171 = SW multi-channel modulation
+172 = T2MI transmission
+173 = DVB-T2 single PLP modulation
+174 = Adjustable output level
+175 = Channel simulation
+176 = Continuous wave
+177 = Digital I/Q sample output
+178 = DVB carrier ID
+179 = IF output
+180 = Mute RF output signal
+181 = Adjustable roll-off factor
+182 = DVB-S2 16-APSK/32-APSK
+183 = Noise insertion
+184 = AWGN insertion
+185 = 16MHz bandwidth mode
+186 = SNF operation
+187 = External RF clock input
+188 = Internal RF clock reference
+189 = ATSC 8-VSB reception
+190 = ATSC3.0 reception
+191 = ATSC3.0 Korean reception
+192 = CID reception
+193 = CMMB reception
+194 = DAB reception
+195 = DTMB reception
+196 = DVB-C2 reception
+197 = DVB-S reception
+198 = DVB-S2 reception
+199 = DVB-S2 multiple input stream reception
+200 = DVB-T reception
+201 = DVB-T2 reception
+202 = GOLD for receivers
+203 = I/Q sample reception
+204 = ISDB-S reception
+205 = ISDB-T reception
+206 = ISDB-T 1 and 3 segment reception
+207 = ATSC-MH reception
+208 = QAM-A reception
+209 = QAM-B reception
+210 = QAM-C reception
+211 = T2MI reception
+212 = External clock input
+213 = Internal clock reference
+214 = SPI fixed clock with valid signal
+215 = SPI DVB mode
+216 = SPI serial 8-bit mode
+217 = SPI serial 10-bit mode
+218 = LVDS1
+219 = LVDS2
+220 = LVTTL
+221 = External TS rate clock input
+222 = External TS rate clock with ratio
+223 = Internal TS rate clock reference
+224 = Lock TS rate to input port
+225 = Internal clock reference
+226 = Steady clock reference
+227 = H.264 video encoder
+228 = MPEG2 video encoder
