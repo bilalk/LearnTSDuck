@@ -22,59 +22,79 @@ In practice, TSDuck is used for:
 - Emulate a CAS head-end using DVB SimulCrypt interfaces to and from ECMG or EMMG.
 - And more...
 
-TSDuck is developed in C++ in a modular architecture. It is easy to extend
-through plugins.
 
-TSDuck is simple; it is a collection of command line tools and plugins. There is
-no sophisticated GUI. Each utility or plugin performs only one elementary feature
-but they can be combined in any order.
+Currently this repository is under development for learning purposes.
+To run this on Linux/Ubuntu following commands to be executed.
+Note: only run for first time for installing library and repo.
 
-Through `tsp`, the Transport Stream Processor, many types of analysis and
-transformation can be applied on live or recorded transport streams.
-This utility can be extended through plugins. Existing plugins can be
-enhanced and new plugins can be developed using a library of C++ classes.
+su root
 
-### Usage
+sudo apt install libsrt1.4-openssl
 
-TSDuck comes with a comprehensive [User's Guide](https://tsduck.io/download/docs/tsduck.pdf).
+sudo apt --fix-broken install
 
-All utilities and plugins accept the option `--help` to display their syntax.
+sudo dpkg -i tsduck_3.32-2983.debian11_amd64.deb
 
-For programmers, TSDuck provides a large collection of C++ classes in one single library.
-These classes manipulate, in a completely portable way, MPEG transport streams, MPEG/DVB/ATSC/ISDB
-signalization and many other features. See the [programming guide](https://tsduck.io/doxy/)
-and its [tutorial](https://tsduck.io/doxy/libtutorial.html).
+sudo dpkg -i tsduck-dev_3.32-2983.debian11_amd64.deb
 
-Python and Java bindings exist to allow running transport stream processing pipelines from
-Python or Java applications.
+mkdir tsduck
 
-### Building
+cd tsduck
 
-TSDuck can be built on Windows, Linux, FreeBSD and macOS systems. See the
-[building guide](https://tsduck.io/doxy/building.html) for details.
+sudo apt install git
 
-### Download
+git clone https://github.com/bilalk/LearnTSDuck.git
 
-Pre-built [binary packages](https://github.com/tsduck/tsduck/releases) are available
-for Windows and Linux (Fedora, RedHat, CentOS, AlmaLinux, Ubuntu, Debian, Raspbian). On macOS,
-[use the Homebrew packager](https://tsduck.io/doxy/installing.html#macinstall).
+cd tsduck
 
-The latest developments can be tested using [nightly builds](https://tsduck.io/download/prerelease/).
+scripts/install-prerequisites.sh
 
-The command `tsversion --check` can be used to check if a new version of TSDuck is available
-online. The command `tsversion --upgrade` downloads the latest binaries for the current
-operating system and upgrades TSDuck.
+which tsp
 
-### Project resources
+tsp –version
 
-TSDuck is developed by one single developer on spare time and on personal expenses.
-You may consider [contributing](https://tsduck.io/donate/) to the hardware and Web hosting costs
-using [![Donate](https://tsduck.io/images/donate-paypal.svg)](https://tsduck.io/donate/)
 
-### License
+ls /usr/bin/make
 
-TSDuck is distributed under the terms of the Simplified BSD License.
-See the file `LICENSE.txt` for details.
+sudo apt-get update
 
-*Copyright (c) 2005-2022, Thierry Lelegard*<br/>
-*All rights reserved*
+sudo apt-get install -y make 
+
+sudo apt-get install python
+
+sudo apt-get install build-essential
+
+sudo make install
+
+sudo make installer
+
+sudo make -j10
+
+source scripts/setenv.sh
+
+make test
+
+
+//Successful installation
+
+
+
+### --- For updating libs
+
+After each edit run following on main learnTSDuck folder.
+
+sudo make
+
+source scripts/setenv.sh
+
+### ---- For running code
+
+cd /sample/sample-app-custom/
+
+make
+
+./myexec
+
+
+
+
