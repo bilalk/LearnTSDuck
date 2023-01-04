@@ -6,7 +6,7 @@
 
 TSDuck is used in digital television systems for test, monitoring, integration, debug, lab or demo.
 
-In practice, TSDuck is used for:
+This library will create learning and testing scenarios of TSDuck for following:
 
 - Transport stream acquisition or transmodulation, including DVB, ATSC, ISDB, ASI and IP multicast.
 - Analyze transport streams, PSI/SI signalization, bitrates, timestamps.
