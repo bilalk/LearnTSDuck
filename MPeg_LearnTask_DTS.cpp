@@ -54,39 +54,6 @@ bool MPEG_TS_LearnPlugin::start()
 bool MPEG_TS_LearnPlugin::stop()
 {
 
-/*----
-
-
-			bool MPEG_TS_LearnPlugin::stop()
-			{
-				// The formula of bitrate is:
-				// Total number of packets X size of packet (which is normally 188) then divide it to the time interval between packets (in sec).
-				// Then to convert it into bit just multiply the answer with 8 and you will get the bit rate in bit/sec
-				// This is the output of example bitrate using the sample stream
-				// Bitrate = 518201(pkt) x 188(size)/32 (sec)
-				// Bitrate = 3044430.875 x 8
-				// Bitrate = 24,355,447 b/s
-
-				// Assuming following captured in Process packet
-				//	_bitrate += ts::PKT_SIZE;
-				//
-				//	firstpacket++;
-				//	if(firstpacket==1)
-			    	//		_start_time = std::chrono::system_clock::now();
-
-				
-				// Following is core of stop function if bitrate is to be calculated manually
-				// auto end_time = std::chrono::system_clock::now();
-    	
-    				// auto elapsed = end_time - _start_time;
-    
-    				// double elapsed_in_sec = std::chrono::duaration_cast<std::chrono::seconds>(elapsed).count();
-    
-    				// double bit_rate = static_cast<double> (_bitrate) / elapsed_in_sec;
-
-			}
-
-----*/
 
     printf("totalbits: %d\n", totalBits);
     printf("totalDuration:%" PRIu64 "\n", totalDuration);
