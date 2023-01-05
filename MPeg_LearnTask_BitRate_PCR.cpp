@@ -1,6 +1,6 @@
 #include "tsduck.h"
 #include <fstream>
-
+#include <chrono>
 TS_MAIN(MainCode);
 
 class MPEG_TS_LearnData : public ts::Object
@@ -23,6 +23,9 @@ private:
     ts::PID _pid;   
     ts::PacketCounter _count; 
     ts::PacketCounter pcr_count;
+    ts::PacketCounter firstpacket;
+    uint64_t _bitrate;
+    std::chrono::system_clock::time_point _start_time;
 
 };
 TS_REGISTER_PROCESSOR_PLUGIN(u"MPEG_TS_Learn", MPEG_TS_LearnPlugin);
@@ -50,11 +53,8 @@ bool MPEG_TS_LearnPlugin::start()
 bool MPEG_TS_LearnPlugin::stop()
 {
 
-/*----
-
-
-			bool MPEG_TS_LearnPlugin::stop()
-			{
+			//bool MPEG_TS_LearnPlugin::stop()
+			// {
 				// The formula of bitrate is:
 				// Total number of packets X size of packet (which is normally 188) then divide it to the time interval between packets (in sec).
 				// Then to convert it into bit just multiply the answer with 8 and you will get the bit rate in bit/sec
@@ -62,27 +62,21 @@ bool MPEG_TS_LearnPlugin::stop()
 				// Bitrate = 518201(pkt) x 188(size)/32 (sec)
 				// Bitrate = 3044430.875 x 8
 				// Bitrate = 24,355,447 b/s
-
-				// Assuming following captured in Process packet
-				//	_bitrate += ts::PKT_SIZE;
-				//
-				//	firstpacket++;
-				//	if(firstpacket==1)
-			    	//		_start_time = std::chrono::system_clock::now();
-
 				
-				// Following is core of stop function if bitrate is to be calculated manually
-				// auto end_time = std::chrono::system_clock::now();
+				
+    // Following is core of stop function if bitrate is to be calculated manually
+    auto end_time = std::chrono::system_clock::now();
     	
-    				// auto elapsed = end_time - _start_time;
-    
-    				// double elapsed_in_sec = std::chrono::duaration_cast<std::chrono::seconds>(elapsed).count();
-    
-    				// double bit_rate = static_cast<double> (_bitrate) / elapsed_in_sec;
+    auto elapsed = end_time - _start_time;
 
-			}
+    double elapsed_in_sec = std::chrono::duration_cast<std::chrono::seconds>(elapsed).count();
 
-----*/
+    double bit_rate = static_cast<double> (_bitrate) / elapsed_in_sec;
+			
+    printf("=================================================\n");
+    printf("    ||\tPID 0x%X\t:\t\t%d\n    ||\tpackets(pkt): \t\t%'d\n    || \tPCR packets: \t\t%'d\n    ||\tbitrate(b/s):\t\t%.2f\n", _pid, _pid, _count, pcr_count, bit_rate);    
+    printf("=================================================\n");
+
 
 
     return true;
@@ -95,6 +89,12 @@ ts::ProcessorPlugin::Status MPEG_TS_LearnPlugin::processPacket(ts::TSPacket& pkt
         
         if(pkt.hasPCR()){
           pcr_count++;}
+        //   Assuming following captured in Process packet
+        _bitrate += ts::PKT_SIZE;
+    
+        firstpacket++;
+        if(firstpacket==1)
+            _start_time = std::chrono::system_clock::now();
 
     }
     return TSP_OK;
