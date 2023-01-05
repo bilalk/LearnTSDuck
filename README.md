@@ -1,11 +1,5 @@
 ## TSDuck - The MPEG Transport Stream Toolkit
 
-### Abstract
-
-[TSDuck](https://tsduck.io/) is an extensible toolkit for MPEG transport streams.
-
-TSDuck is used in digital television systems for test, monitoring, integration, debug, lab or demo.
-
 This library will create learning and testing scenarios of TSDuck for following:
 
 - Transport stream acquisition or transmodulation, including DVB, ATSC, ISDB, ASI and IP multicast.
