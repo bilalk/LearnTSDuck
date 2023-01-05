@@ -97,15 +97,19 @@ make
 
 ### ---- For running code on live debain VM
 
-1- connect with RDP
+1- connect with RDP 
+
 34.237.76.149
+
 usr/pwd = admin/admin123
 
 2- goto zaktest folder. Run the below commands for all the scenarios (scenario1, scenario2, sccenario3)
-cd scenario1
-make
-./Scenario1 
 
+cd scenario_name
+
+make
+
+./test_file_name
 
 3- Compare results with tsanalyze
 
