@@ -87,13 +87,27 @@ sudo make
 
 source scripts/setenv.sh
 
-### ---- For running code
+### ---- For running code locally
 
 cd /sample/sample-app-custom/
 
 make
 
 ./myexec
+
+### ---- For running code on live debain VM
+
+1- connect with RDP
+34.237.76.149
+usr/pwd = admin/admin123
+
+2- CD zaktest/updstream folder
+cmake .
+make
+./Scenario_Name parameters
+
+3- Compare results with tsanalyze
+
 
 
 
