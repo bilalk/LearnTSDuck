@@ -103,7 +103,7 @@ make
 
 usr/pwd = admin/admin123
 
-2- goto zaktest folder. Run the below commands for all the scenarios (scenario1, scenario2, sccenario3)
+2- goto zaktest folder. Run the below commands for all the scenarios. Change the scenario_name to (scenario1, scenario2, sccenario3) and test_file_name to the cpp file of that scenario.
 
 cd scenario_name
 
