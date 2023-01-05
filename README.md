@@ -101,13 +101,13 @@ make
 34.237.76.149
 usr/pwd = admin/admin123
 
-2- CD zaktest/updstream folder
-cmake .
+2- goto zaktest folder. Run the below commands for all the scenarios (scenario1, scenario2, sccenario3)
+cd scenario1
 make
-./Scenario_Name parameters
+./Scenario1 
+
 
 3- Compare results with tsanalyze
-
 
 
 
