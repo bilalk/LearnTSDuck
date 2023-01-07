@@ -115,9 +115,9 @@ int MainCode(int argc, char* argv[])
     opt.input = {u"http", {u"https://tsduck.io/streams/italy-sardinia-dttv/mux1rai.ts"}};
 
     opt.plugins = {
-        {u"pattern", {u"--pid", u"4", u"DEADBEEF"}},
+        //{u"pattern", {u"--pid", u"4", u"DEADBEEF"}},
         {u"MPEG_TS_Learn", {u"--pid", u"5"}},
-        {u"continuity", {}},
+        //{u"continuity", {}},
     };
 
     opt.output = {u"file", {u"output.ts"}};
