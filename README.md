@@ -93,7 +93,7 @@ make
 
 1- connect with RDP 
 
-34.237.76.149
+44.212.99.118
 
 usr/pwd = admin/admin123
 
