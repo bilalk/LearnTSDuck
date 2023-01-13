@@ -103,7 +103,7 @@ bool MPEG_TS_LearnPlugin::stop()
     printf("=================================================\n");
     printf("    ||\tPID 0x%X\t:\t\t%d\n    ||\tpackets(pkt): \t\t%'d\n    || \tPCR packets: \t\t%'d\n    ||\tbitrate(b/s):\t\t%'s\n    ||\tbitrate_DTS(b/s):\t\t%f\n", _pid, _pid, _count, pcr_count, bit_rate.c_str(), bitrateValue);    
     printf("=================================================\n");
-    
+
     return true;
 }
 
@@ -119,7 +119,6 @@ ts::ProcessorPlugin::Status MPEG_TS_LearnPlugin::processPacket(ts::TSPacket& pkt
             // printf("%'d\n",pkt.getDTS());
             
             if (previousDTS < currentDTS) {
-                
                 uint64_t frameDuration = currentDTS - previousDTS;
                 printf("currentDTS:%" PRIu64 "\n", currentDTS);
                 printf("previousDTS:%" PRIu64 "\n", previousDTS);

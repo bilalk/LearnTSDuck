@@ -17,8 +17,6 @@ This library will create learning and testing scenarios of TSDuck for following:
 - And more...
 
 
-
-
 Currently this repository is under development for learning purposes.
 To run this on Linux/Ubuntu following commands to be executed.
 Note: only run for first time for installing library and repo.
